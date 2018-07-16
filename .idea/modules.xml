@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../JD2/.idea/JD2.iml" filepath="$PROJECT_DIR$/../JD2/.idea/JD2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JD.iml" filepath="$PROJECT_DIR$/.idea/JD.iml" />
     </modules>
   </component>
 </project>
