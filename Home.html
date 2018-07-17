@@ -11,7 +11,6 @@
         $(document).ready(function () {
             $("#leftmenu>ul>li").mouseover(function () {
                     $("#"+$(this).index()).css('display', 'block');
-
             });
 
             $("#leftmenu>ul>li").mouseleave(function () {
@@ -129,13 +128,13 @@
         #leftmenu li:hover{
             background-color: lightgray;
         }
-        #centermenu li{
+        .centermenu li{
             list-style: none;
             float: left;
         }
-        #centermenu {
-            border: 1px solid black;
-            margin-left: -2px;
+        .centermenu {
+            display: none;background-color: white;width:1000px;height: 490px;
+            margin-left: 147px;
         }
     </style>
 </head>
@@ -188,10 +187,46 @@
     <div id="mainmenu">
         <div id="leftmenu">
             <ul>
-                <li>家用电器</li>
-                <li>手机/数码</li>
-                <li>电脑/办公</li>
-                <li>家居/厨具</li>
+                <li>家用电器
+                    <div id="0" class="centermenu" style="margin-top: -30px;">
+                        <ul>
+                            <li>电视 ></li>
+                            <li>曲面电视</li>
+                            <li>超薄电视</li>
+                            <li>HDR电视</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>手机/数码
+                    <div id="1" class="centermenu" style="margin-top: -60px;">
+                        <ul>
+                            <li>三星 ></li>
+                            <li>苹果</li>
+                            <li>iphone</li>
+                            <li>小米</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>电脑/办公
+                    <div id="2" class="centermenu" style="margin-top: -90px;">
+                        <ul>
+                            <li>Dell ></li>
+                            <li>三星</li>
+                            <li>Apple</li>
+                            <li>hp</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>家居/厨具
+                    <div id="3" class="centermenu" style="margin-top: -120px;">
+                        <ul>
+                            <li>宜家 ></li>
+                            <li>啊啊</li>
+                            <li>呵呵</li>
+                            <li>额啊</li>
+                        </ul>
+                    </div>
+                </li>
                 <li>男装/女装/童装</li>
                 <li>美妆/个护清洁</li>
                 <li>女鞋/箱包</li>
@@ -202,20 +237,8 @@
                 <li>图书/影像/电子书</li>
             </ul>
         </div>
-        <div id="centermenu" style="float:left;">
-            <div id="0" style="display: none;background-color: white;width:1000px;height: 490px;">
 
-                <ul>
-                    <li>电视 ></li>
-                    <li>曲面电视</li>
-                    <li>超薄电视</li>
-                    <li>HDR电视</li>
-                </ul>
-            </div>
-            <div id="1" style="display: none;">222</div>
-            <div id="2" style="display: none;">333</div>
-            <div id="3" style="display: none;">444</div>
-        </div>
+
     </div>
 
 
