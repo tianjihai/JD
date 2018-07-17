@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
-    <title>Title</title>
+    <title>京东</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <script src="js/jquery-3.3.1.min.js"></script>
@@ -19,6 +19,13 @@
             });
 
 
+            $(".location").mouseover(function () {
+                $(".locationMenu").fadeIn(150);
+            });
+            $(".location").mouseleave(function () {
+                $(".locationMenu").fadeOut(150);
+            });
+
         });
     </script>
 
@@ -30,13 +37,14 @@
         .main{
             margin: 0 auto;
             border: 0px solid black;
-            width: 1300px;
+            width: 1200px;
         }
         #headtit{
             border: 0px solid red;
             height: 35px;
-            width: 1300px;
+            width: 1200px;
             margin: 0 auto;
+            color: gray;
         }
         #headtit ul{
             float: right;
@@ -45,11 +53,23 @@
         #headli li{
             float: left;
             width: 100px;
+            font-size: 13px;
+            text-align: center;
         }
         #headmenu{
-            border: 0px solid green;
+            height: 35px;
+            line-height: 35px;
             float: left;
-            margin-top: 27px;
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+        #headmenu a{
+             text-decoration: none;
+             color:black;
+         }
+        #headmenu a:hover{
+            text-decoration: none;
+            color:red;
         }
         #headmenu ul{
             float: left;
@@ -59,7 +79,7 @@
             list-style: none;
             width: 80px;
             text-align: center;
-            font-size: 17px;
+            font-size: 15px;
         }
         #search .searchinput{
             width: 500px;
@@ -75,6 +95,9 @@
         }
         #logo{
             float: left;
+        }
+        #logo img{
+            margin-top: -35px;box-shadow:0 0 20px lightgray;
         }
         .sbt{
             background-color: red;
@@ -95,14 +118,14 @@
             margin-left: 40px;
         }
         #mainmenu{
-            border: 1px solid red;
-            height: 510px;
-            width: 1300px;
+            border: 0px solid red;
+            height: 490px;
+            width: 1200px;
         }
         #leftmenu{
             border: 0px solid blue;
             width: 188px;
-            height: 500px;
+            height: 480px;
             float: left;
             padding-top: 20px;
             background-color: white;
@@ -112,8 +135,8 @@
             height: 30px;
             line-height: 30px;
             background-color: white;
-            font-size: 16px;
-            color: black;
+            font-size: 14px;
+            color: gray;
             font-family: "微软雅黑";
             padding-left: 18px;
             letter-spacing: 1px;
@@ -141,7 +164,7 @@
             color: #333333;
         }
         .mainleftpic{
-            float: left;border: 1px solid blue; padding-left: 10px;padding-right: 10px;
+            float: left;border: 0px solid blue; padding-left: 10px;padding-right: 10px;
         }
         .topLeftPic{
             width:190px;height: 150px;margin-top: 10px;margin-bottom: 10px;
@@ -149,6 +172,43 @@
         }
         .topLeftPic:hover{
             opacity: 0.6;
+        }
+        .menuRight{
+            float: left;margin-top: 10px;width: 180px;height: 470px;
+            background-color: white;
+        }
+        .menuRightTop{
+            text-align: center;
+        }
+        .menuRightTop p{
+            margin-top: 10px;
+            color: dimgray;
+        }
+        .menuRightTop img{
+            width: 55px;
+            border-radius: 50px 50px 50px 50px;
+            box-shadow: 0 0 20px grey;
+        }
+        .location{
+            margin-right: 110px;
+            width: 60px;
+            text-align: center;
+        }
+        .location:hover{
+            background-color: white;
+        }
+        .locationMenu table{
+            margin: 0 auto;
+        }
+        .locationMenu td{
+            margin-top: 5px;
+            height: 10px;
+            width: 60px;
+        }
+        .locationMenu td:hover{
+            background-color: red;
+            color: white;
+            transition:background-color 0.3s linear;
         }
     </style>
 </head>
@@ -158,41 +218,96 @@
 
     <div id="headtit">
 
-    <ul id="headli" style="list-style: none; height:40px; ">
-        <li>您好，请登录</li> |
-        <li>我的订单</li>
-        <li>我的京东</li>
-        <li>京东会员</li>
-        <li>企业采购</li>
-        <li>客户服务</li>
-        <li>网站导航</li>
+    <ul id="headli" style="list-style: none; height:40px; border: 0px solid black;">
+        <li>您好，请登录<span style="float: right;">|</span></li>
+        <li>我的订单<span style="float: right;">|</span></li>
+        <li>我的京东<span style="float: right;">|</span></li>
+        <li>京东会员<span style="float: right;">|</span></li>
+        <li>企业采购<span style="float: right;">|</span></li>
+        <li>客户服务<span style="float: right;">|</span></li>
+        <li>网站导航<span style="float: right;">|</span></li>
         <li>手机京东</li>
     </ul>
 
 
-        <ul>北京</ul>
+        <ul class="location" >北京
+            <div class="locationMenu" style="display: none;background-color: white;width:300px;height: 250px;
+            position: absolute; ">
+                    <table  style="text-align: center;">
+                        <tr>
+                            <td>北京</td>
+                            <td>上海</td>
+                            <td>天津</td>
+                            <td>重庆</td>
+                            <td>深圳</td>
+                        </tr>
+                        <tr>
+                            <td>河北</td>
+                            <td>山西</td>
+                            <td>河南</td>
+                            <td>辽宁</td>
+                            <td>吉林</td>
+                        </tr>
+                        <tr>
+                            <td>黑龙江</td>
+                            <td>内蒙古</td>
+                            <td>江苏</td>
+                            <td>山东</td>
+                            <td>安徽</td>
+                        </tr>
+                        <tr>
+                            <td>浙江</td>
+                            <td>福建</td>
+                            <td>湖北</td>
+                            <td>湖南</td>
+                            <td>广东</td>
+                        </tr>
+                        <tr>
+                            <td>广西</td>
+                            <td>江西</td>
+                            <td>四川</td>
+                            <td>海南</td>
+                            <td>贵州</td>
+                        </tr>
+                        <tr>
+                            <td>云南</td>
+                            <td>西藏</td>
+                            <td>陕西</td>
+                            <td>甘肃</td>
+                            <td>青海</td>
+                        </tr>
+                        <tr>
+                            <td>宁夏</td>
+                            <td>新疆</td>
+                            <td>港澳</td>
+                            <td>台湾</td>
+                            <td>海外</td>
+                        </tr>
+                    </table>
+            </div>
+        </ul>
     </div>
 </div>
 
 <div class="main" id="main">
 
-    <div style="height: 130px;border: 0px solid blue;width: 1300px;margin: 0 auto;">
-        <div id="logo"><img src="img/logo.png" alt="京东"  style="margin-top: -35px;box-shadow:0 0 10px grey;  "></div>
+    <div style="height: 130px;border: 0px solid blue;width: 1200px;margin: 0 auto;">
+        <div id="logo"><img src="img/logo.png" alt="京东" ></div>
         <div id="search"><input type="text" class="searchinput"> <button type="submit" class="glyphicon glyphicon-search sbt"></button></div>
         <div id="cart">我的购物车</div>
 
         <div id="headmenu">
             <ul>
-                <li>秒杀</li>
-                <li>优惠券</li>
-                <li>PLUS会员</li>
-                <li>闪购</li>
-                <li>拍卖</li>
-                <li>京东服饰</li>
-                <li>京东超市</li>
-                <li>生鲜</li>
-                <li>全球购</li>
-                <li>京东金融</li>
+                <li><a href="">秒杀</a></li>
+                <li><a href="">优惠券</a></li>
+                <li><a href="">PLUS会员</a></li>
+                <li><a href="">闪购</a><span style="float: right;color: lightgray;">|</span></li>
+                <li><a href="">拍卖</a></li>
+                <li><a href="">京东服饰</a></li>
+                <li><a href="">京东超市</a></li>
+                <li><a href="">生鲜</a><span style="float: right;color: lightgray;">|</span></li>
+                <li><a href="">全球购</a></li>
+                <li><a href="">京东金融</a></li>
             </ul>
         </div>
 
@@ -469,13 +584,20 @@
                 <li>食品/酒类/生鲜</li>
                 <li>医药保健</li>
                 <li>图书/影像/电子书</li>
+                <li>机票/酒店/旅游/生活</li>
+                <li>理财/众筹/白条/保险</li>
             </ul>
         </div>
 
 
-        <div style="border: 1px solid black;width: 650px;height: 490px; margin-top: 10px; margin-left: 10px;float: left;">
-            asdf</div>
+        <!--轮播图  暂时放静态图-->
+        <div style="border: 0px solid black;width: 600px;height: 490px; margin-top: 10px; margin-left: 10px;float: left;">
+            <img src="img/mainpic/home1.jpg" alt="">
+        
+        </div>
 
+        
+        
         <div class="mainleftpic" >
 
             <div class="topLeftPic" >
@@ -497,7 +619,14 @@
             </div>
         </div>
 
-        <div style="border: 1px solid black; float: left;margin-top: 10px;width: 230px;height: 500px;">
+
+        <!--右侧登录条-->
+        <div class="menuRight" >
+            <div class="menuRightTop">
+                <img src="img/no_login.jpg" alt="">
+                <p>Hi~欢迎来到京东！</p>
+                <p><a href="">登录</a> <a href="">注册</a></p>
+            </div>
 
         </div>
 
