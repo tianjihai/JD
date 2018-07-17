@@ -10,45 +10,30 @@
     <script>
         $(document).ready(function () {
             $("#leftmenu>ul>li").mouseover(function () {
-                    $("#"+$(this).index()).css('display', 'block');
+                  //  $("#"+$(this).index()).css('display', 'block');
+                $("#"+$(this).index()).fadeIn(150);
             });
 
             $("#leftmenu>ul>li").mouseleave(function () {
-                    $("#"+$(this).index()).css('display', 'none');
+                    $("#"+$(this).index()).fadeOut(150);
             });
 
-            // $('#leftmenu>ul>li').hover(function() {
-            //     $("#"+$(this).index()).css('display', 'block');
-            // }, function() {
-            //   // $("#"+$(this).index()).css('display', 'none');
-            // }
-            // ,$("#"+$(this).index()).mouseleave(function () {
-            //         $("#"+$(this).index()).css('display', 'none');
-            //     })
-            //
-            // );
-
-
-            /*$("#"+$(this).index()).hover(function() {
-                $("#"+$(this).index()).css('display', 'block');;
-            }, function() {
-                $("#"+$(this).index()).css('display', 'none');
-            });*/
 
         });
     </script>
 
     <style>
+        *{margin:0;padding:0;}
         body{
             background-color: #F0F3EF;
         }
         .main{
             margin: 0 auto;
-            border: 1px solid black;
+            border: 0px solid black;
             width: 1300px;
         }
         #headtit{
-            border: 1px solid red;
+            border: 0px solid red;
             height: 35px;
             width: 1300px;
             margin: 0 auto;
@@ -62,7 +47,7 @@
             width: 100px;
         }
         #headmenu{
-            border: 1px solid green;
+            border: 0px solid green;
             float: left;
             margin-top: 27px;
         }
@@ -79,10 +64,10 @@
         #search .searchinput{
             width: 500px;
             height: 40px;
-            border: 1px solid white;
+            border: 0px solid white;
         }
         #search{
-            border: 1px solid blue;
+            border: 0px solid blue;
             width: 570px;
             float: left;
             margin-left: 150px;
@@ -96,6 +81,7 @@
             width: 60px;
             height: 40px;
             border: 0;
+            color: white;
         }
         #cart{
             color: red;
@@ -110,23 +96,31 @@
         }
         #mainmenu{
             border: 1px solid red;
-            height: 500px;
+            height: 510px;
             width: 1300px;
         }
         #leftmenu{
-            border: 1px solid blue;
+            border: 0px solid blue;
             width: 188px;
             height: 500px;
             float: left;
+            padding-top: 20px;
+            background-color: white;
         }
         #leftmenu li{
             list-style: none;
             height: 30px;
             line-height: 30px;
             background-color: white;
+            font-size: 16px;
+            color: black;
+            font-family: "微软雅黑";
+            padding-left: 18px;
+            letter-spacing: 1px;
         }
         #leftmenu li:hover{
             background-color: lightgray;
+            transition:background-color 0.3s linear;
         }
         .centermenu li{
             list-style: none;
@@ -134,7 +128,17 @@
         }
         .centermenu {
             display: none;background-color: white;width:1000px;height: 490px;
-            margin-left: 147px;
+            margin-left: 173px;
+            box-shadow: 0 0 10px grey;
+            position: absolute;
+        }
+        .menutable1{
+            width: 100px;text-align: right;padding-right: 20px;
+            font-weight: bold;padding-bottom: 5px;padding-top: 5px;
+        }
+        .menutable2{
+            padding-left: 10px;padding-right: 5px;border-left: 1px solid lightgray;
+            color: #333333;
         }
     </style>
 </head>
@@ -162,9 +166,9 @@
 
 <div class="main" id="main">
 
-    <div style="height: 130px;border: 1px solid blue;width: 1300px;margin: 0 auto;">
+    <div style="height: 130px;border: 0px solid blue;width: 1300px;margin: 0 auto;">
         <div id="logo"><img src="img/logo.png" alt="京东"  style="margin-top: -35px;box-shadow:0 0 10px grey;  "></div>
-        <div id="search"><input type="text" class="searchinput"><input type="submit" class="sbt" ></div>
+        <div id="search"><input type="text" class="searchinput"> <button type="submit" class="glyphicon glyphicon-search sbt"></button></div>
         <div id="cart">我的购物车</div>
 
         <div id="headmenu">
@@ -188,43 +192,263 @@
         <div id="leftmenu">
             <ul>
                 <li>家用电器
-                    <div id="0" class="centermenu" style="margin-top: -30px;">
-                        <ul>
-                            <li>电视 ></li>
-                            <li>曲面电视</li>
-                            <li>超薄电视</li>
-                            <li>HDR电视</li>
-                        </ul>
+                    <div id="0" class="centermenu" style="margin-top: -50px;">
+                        <div style=" padding-top: 25px;padding-left: 40px;">
+                        <table >
+                            <tr>
+                                <td class="menutable1">电视  ></td>
+                                <td><span class="menutable2">曲面电视</span>
+                                    <span class="menutable2">OLED电视</span>
+                                    <span class="menutable2">超薄电视</span>
+                                    <span class="menutable2">4K超清电视</span>
+                                    <span class="menutable2">人工智能电视</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="menutable1">洗衣机  ></td>
+                                <td><span class="menutable2">滚筒洗衣机</span>
+                                    <span class="menutable2">洗烘一体机</span>
+                                    <span class="menutable2">波轮洗衣机</span>
+                                    <span class="menutable2">迷你洗衣机</span>
+                                    <span class="menutable2">烘干机</span>
+                                    <span class="menutable2">洗衣机配件</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="menutable1">空调  ></td>
+                                <td><span class="menutable2">挂壁式空调</span>
+                                    <span class="menutable2">柜式空调</span>
+                                    <span class="menutable2">中央空调</span>
+                                    <span class="menutable2">一级能效空调</span>
+                                    <span class="menutable2">变频空调</span>
+                                    <span class="menutable2">单冷空调</span>
+                                    <span class="menutable2">以旧换新</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="menutable1">冰箱  ></td>
+                                <td><span class="menutable2">曲面电视</span>
+                                    <span class="menutable2">OLED电视</span>
+                                    <span class="menutable2">超薄电视</span>
+                                    <span class="menutable2">4K超清电视</span>
+                                    <span class="menutable2">人工智能电视</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="menutable1">电视  ></td>
+                                <td><span class="menutable2">曲面电视</span>
+                                    <span class="menutable2">OLED电视</span>
+                                    <span class="menutable2">超薄电视</span>
+                                    <span class="menutable2">4K超清电视</span>
+                                    <span class="menutable2">人工智能电视</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="menutable1">电视  ></td>
+                                <td><span class="menutable2">曲面电视</span>
+                                    <span class="menutable2">OLED电视</span>
+                                    <span class="menutable2">超薄电视</span>
+                                    <span class="menutable2">4K超清电视</span>
+                                    <span class="menutable2">人工智能电视</span>
+                                </td>
+                            </tr>
+                        </table>
+                        </div>
                     </div>
                 </li>
                 <li>手机/数码
-                    <div id="1" class="centermenu" style="margin-top: -60px;">
-                        <ul>
-                            <li>三星 ></li>
-                            <li>苹果</li>
-                            <li>iphone</li>
-                            <li>小米</li>
-                        </ul>
+                    <div id="1" class="centermenu" style="margin-top: -80px;">
+                        <div style=" padding-top: 25px;padding-left: 40px;">
+                            <table >
+                                <tr>
+                                    <td class="menutable1">电视  ></td>
+                                    <td><span class="menutable2">曲面电视</span>
+                                        <span class="menutable2">OLED电视</span>
+                                        <span class="menutable2">超薄电视</span>
+                                        <span class="menutable2">4K超清电视</span>
+                                        <span class="menutable2">人工智能电视</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">洗衣机  ></td>
+                                    <td><span class="menutable2">滚筒洗衣机</span>
+                                        <span class="menutable2">洗烘一体机</span>
+                                        <span class="menutable2">波轮洗衣机</span>
+                                        <span class="menutable2">迷你洗衣机</span>
+                                        <span class="menutable2">烘干机</span>
+                                        <span class="menutable2">洗衣机配件</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">空调  ></td>
+                                    <td><span class="menutable2">挂壁式空调</span>
+                                        <span class="menutable2">柜式空调</span>
+                                        <span class="menutable2">中央空调</span>
+                                        <span class="menutable2">一级能效空调</span>
+                                        <span class="menutable2">变频空调</span>
+                                        <span class="menutable2">单冷空调</span>
+                                        <span class="menutable2">以旧换新</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">冰箱  ></td>
+                                    <td><span class="menutable2">曲面电视</span>
+                                        <span class="menutable2">OLED电视</span>
+                                        <span class="menutable2">超薄电视</span>
+                                        <span class="menutable2">4K超清电视</span>
+                                        <span class="menutable2">人工智能电视</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">电视  ></td>
+                                    <td><span class="menutable2">曲面电视</span>
+                                        <span class="menutable2">OLED电视</span>
+                                        <span class="menutable2">超薄电视</span>
+                                        <span class="menutable2">4K超清电视</span>
+                                        <span class="menutable2">人工智能电视</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">电视  ></td>
+                                    <td><span class="menutable2">曲面电视</span>
+                                        <span class="menutable2">OLED电视</span>
+                                        <span class="menutable2">超薄电视</span>
+                                        <span class="menutable2">4K超清电视</span>
+                                        <span class="menutable2">人工智能电视</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </li>
                 <li>电脑/办公
-                    <div id="2" class="centermenu" style="margin-top: -90px;">
-                        <ul>
-                            <li>Dell ></li>
-                            <li>三星</li>
-                            <li>Apple</li>
-                            <li>hp</li>
-                        </ul>
+                    <div id="2" class="centermenu" style="margin-top: -110px;">
+                        <div style=" padding-top: 25px;padding-left: 40px;">
+                            <table >
+                                <tr>
+                                    <td class="menutable1">电视  ></td>
+                                    <td><span class="menutable2">曲面电视</span>
+                                        <span class="menutable2">OLED电视</span>
+                                        <span class="menutable2">超薄电视</span>
+                                        <span class="menutable2">4K超清电视</span>
+                                        <span class="menutable2">人工智能电视</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">洗衣机  ></td>
+                                    <td><span class="menutable2">滚筒洗衣机</span>
+                                        <span class="menutable2">洗烘一体机</span>
+                                        <span class="menutable2">波轮洗衣机</span>
+                                        <span class="menutable2">迷你洗衣机</span>
+                                        <span class="menutable2">烘干机</span>
+                                        <span class="menutable2">洗衣机配件</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">空调  ></td>
+                                    <td><span class="menutable2">挂壁式空调</span>
+                                        <span class="menutable2">柜式空调</span>
+                                        <span class="menutable2">中央空调</span>
+                                        <span class="menutable2">一级能效空调</span>
+                                        <span class="menutable2">变频空调</span>
+                                        <span class="menutable2">单冷空调</span>
+                                        <span class="menutable2">以旧换新</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">冰箱  ></td>
+                                    <td><span class="menutable2">曲面电视</span>
+                                        <span class="menutable2">OLED电视</span>
+                                        <span class="menutable2">超薄电视</span>
+                                        <span class="menutable2">4K超清电视</span>
+                                        <span class="menutable2">人工智能电视</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">电视  ></td>
+                                    <td><span class="menutable2">曲面电视</span>
+                                        <span class="menutable2">OLED电视</span>
+                                        <span class="menutable2">超薄电视</span>
+                                        <span class="menutable2">4K超清电视</span>
+                                        <span class="menutable2">人工智能电视</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">电视  ></td>
+                                    <td><span class="menutable2">曲面电视</span>
+                                        <span class="menutable2">OLED电视</span>
+                                        <span class="menutable2">超薄电视</span>
+                                        <span class="menutable2">4K超清电视</span>
+                                        <span class="menutable2">人工智能电视</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </li>
                 <li>家居/厨具
-                    <div id="3" class="centermenu" style="margin-top: -120px;">
-                        <ul>
-                            <li>宜家 ></li>
-                            <li>啊啊</li>
-                            <li>呵呵</li>
-                            <li>额啊</li>
-                        </ul>
+                    <div id="3" class="centermenu" style="margin-top: -140px;">
+                        <div style=" padding-top: 25px;padding-left: 40px;">
+                            <table >
+                                <tr>
+                                    <td class="menutable1">电视  ></td>
+                                    <td><span class="menutable2">曲面电视</span>
+                                        <span class="menutable2">OLED电视</span>
+                                        <span class="menutable2">超薄电视</span>
+                                        <span class="menutable2">4K超清电视</span>
+                                        <span class="menutable2">人工智能电视</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">洗衣机  ></td>
+                                    <td><span class="menutable2">滚筒洗衣机</span>
+                                        <span class="menutable2">洗烘一体机</span>
+                                        <span class="menutable2">波轮洗衣机</span>
+                                        <span class="menutable2">迷你洗衣机</span>
+                                        <span class="menutable2">烘干机</span>
+                                        <span class="menutable2">洗衣机配件</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">空调  ></td>
+                                    <td><span class="menutable2">挂壁式空调</span>
+                                        <span class="menutable2">柜式空调</span>
+                                        <span class="menutable2">中央空调</span>
+                                        <span class="menutable2">一级能效空调</span>
+                                        <span class="menutable2">变频空调</span>
+                                        <span class="menutable2">单冷空调</span>
+                                        <span class="menutable2">以旧换新</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">冰箱  ></td>
+                                    <td><span class="menutable2">曲面电视</span>
+                                        <span class="menutable2">OLED电视</span>
+                                        <span class="menutable2">超薄电视</span>
+                                        <span class="menutable2">4K超清电视</span>
+                                        <span class="menutable2">人工智能电视</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">电视  ></td>
+                                    <td><span class="menutable2">曲面电视</span>
+                                        <span class="menutable2">OLED电视</span>
+                                        <span class="menutable2">超薄电视</span>
+                                        <span class="menutable2">4K超清电视</span>
+                                        <span class="menutable2">人工智能电视</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="menutable1">电视  ></td>
+                                    <td><span class="menutable2">曲面电视</span>
+                                        <span class="menutable2">OLED电视</span>
+                                        <span class="menutable2">超薄电视</span>
+                                        <span class="menutable2">4K超清电视</span>
+                                        <span class="menutable2">人工智能电视</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </li>
                 <li>男装/女装/童装</li>
@@ -237,6 +461,30 @@
                 <li>图书/影像/电子书</li>
             </ul>
         </div>
+
+
+        <div style="border: 1px solid black;width: 650px;height: 490px; margin-top: 10px; margin-left: 10px;float: left;">
+            asdf</div>
+
+        <div style="float: left;border: 1px solid blue;margin-top: 10px;padding-left: 10px;padding-right: 10px;">
+
+            <div style="border: 1px solid red; width:190px;height: 150px;margin-top: 10px;margin-bottom: 10px;">
+
+            </div>
+
+            <div style="border: 1px solid red; width:190px;height: 150px;margin-top: 10px;margin-bottom: 10px;">
+
+            </div>
+
+            <div style="border: 1px solid red; width:190px;height: 150px;margin-top: 10px;margin-bottom: 10px;">
+
+            </div>
+        </div>
+
+        <div style="border: 1px solid black; float: left;margin-top: 10px;width: 230px;height: 500px;">
+
+        </div>
+
 
 
     </div>
