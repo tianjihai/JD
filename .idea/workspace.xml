@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61a90165-8bf8-4445-9673-268c7e247a9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/img/no_login.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
     </list>
@@ -21,8 +20,8 @@
       <file leaf-file-name="Home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="383" column="22" lean-forward="true" selection-start-line="383" selection-start-column="22" selection-end-line="383" selection-end-column="22" />
+            <state relative-caret-position="10062">
+              <caret line="746" column="20" selection-start-line="746" selection-start-column="20" selection-end-line="746" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -86,8 +85,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="109" />
-    <option name="y" value="-17" />
+    <option name="x" value="194" />
+    <option name="y" value="-24" />
     <option name="width" value="969" />
     <option name="height" value="642" />
   </component>
@@ -158,7 +157,8 @@
       <workItem from="1531788868376" duration="4565000" />
       <workItem from="1531794652615" duration="1090000" />
       <workItem from="1531815146288" duration="5901000" />
-      <workItem from="1531828186737" duration="6851000" />
+      <workItem from="1531828186737" duration="7004000" />
+      <workItem from="1531874323412" duration="4365000" />
     </task>
     <task id="LOCAL-00001" summary="修改主页">
       <created>1531754500683</created>
@@ -195,21 +195,28 @@
       <option name="project" value="LOCAL" />
       <updated>1531821020253</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改主页菜单栏部分">
+      <created>1531835426636</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531835426636</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24069000" />
+    <option name="totallyTimeSpent" value="28587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="372" y="44" width="969" height="642" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2988827" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3179377" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5014881" side_tool="true" weight="0.11404958" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4985119" visible="true" weight="0.10735586" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4985119" weight="0.13057852" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -262,9 +269,42 @@
     <MESSAGE value="修改主页菜单2" />
     <MESSAGE value="修改主页菜单3" />
     <MESSAGE value="修改主页添加图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改主页添加图片" />
+    <MESSAGE value="修改主页菜单栏部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改主页菜单栏部分" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7820">
+          <caret line="391" column="64" selection-start-line="391" selection-start-column="64" selection-end-line="391" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#6;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ul#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#ul#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#3;n#ul#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#7;n#ul#0;n#div#3;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2840">
@@ -413,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="383" column="22" lean-forward="true" selection-start-line="383" selection-start-column="22" selection-end-line="383" selection-end-column="22" />
+        <state relative-caret-position="10062">
+          <caret line="746" column="20" selection-start-line="746" selection-start-column="20" selection-end-line="746" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
