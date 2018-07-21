@@ -346,7 +346,63 @@ body{
 .SecondLeftList{
     width: 20%;height:35px;line-height:35px;float:left;
     color: dimgray;
+    font-size: 12px;
 }
 .SecondLeftList:hover{
     color: red;
+}
+.SecondLeftMenu{
+    height: 35px;width: 100%;border: 0px solid green;text-align: center;background-color: rgba(247,247,247,0.69);
+}
+.SecondLeftMenu a{
+    text-decoration: none;
+    color: dimgray;
+}
+.SecondLeftMenu a:hover{
+    color: red;
+}
+.SecondLeft{
+    border: 0px solid red;width: 390px;height: 450px;float: left;
+}
+.SecondLeftTop{
+    border: 0px solid blue;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 23px;
+    background-color: white;
+    padding-left: 20px;
+    font-family: '微软雅黑 Light';
+    font-weight: 600;
+    color: black;
+}
+.SecondLeftTop a{
+     text-decoration: none;
+    color: black;
+ }
+.SecondLeftMain{
+    height: 355px;width: 100%;border: 0px solid black;background-color: white;
+}
+.SecondLeftListImg{
+    float:left;line-height: 100px;padding-left: 20px;padding-right: 15px;
+}
+.SecondLeftListNum{
+    color: rgba(231,66,64,1);font-size: 40px;line-height: 100px;float:left;font-weight: 700;padding-right: 10px;
+}
+.SecondLeftListTxt{
+    font-size: 12px;float:left;width: 220px;margin-top: 30px;
+}
+.SecondLeftListMain{
+    width:100%;height: 100px;
+}
+.SecondLeftListA{
+    color: dimgray;
+}
+.SecondLeftListA:hover{
+    color: red;
+    transition:color 0.2s linear;
+}
+.SecondLeftListMain img:hover{
+    opacity: 0.6;
+    transition:opacity 0.2s linear;
 }
