@@ -1,0 +1,429 @@
+*{margin:0;padding:0;}
+body{
+    background-color: #F0F3EF;
+}
+.main{
+    margin: 0 auto;
+    border: 0px solid blue;
+    width: 1200px;
+}
+#headtit{
+    border: 0px solid red;
+    height: 35px;
+    width: 1200px;
+    margin: 0 auto;
+    color: gray;
+}
+#headtit ul{
+    float: right;
+    line-height: 35px;
+}
+#headli li{
+    float: left;
+    width: 100px;
+    font-size: 13px;
+    text-align: center;
+}
+#headmenu{
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#headmenu a{
+    text-decoration: none;
+    color:black;
+}
+#headmenu a:hover{
+    text-decoration: none;
+    color:red;
+}
+#headmenu ul{
+    float: left;
+}
+#headmenu li{
+    float: left;
+    list-style: none;
+    width: 80px;
+    text-align: center;
+    font-size: 15px;
+}
+#search .searchinput{
+    width: 500px;
+    height: 40px;
+    border: 0px solid white;
+}
+#search{
+    border: 0px solid blue;
+    width: 570px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+#logo{
+    float: left;
+}
+#logo img{
+    margin-top: -35px;box-shadow:0 0 20px lightgray;
+}
+.sbt{
+    background-color: red;
+    width: 60px;
+    height: 40px;
+    border: 0;
+    color: white;
+}
+#cart{
+    color: red;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    float: left;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#mainmenu{
+    border: 0px solid red;
+    height: 490px;
+    width: 1200px;
+}
+#leftmenu{
+    border: 0px solid blue;
+    width: 188px;
+    height: 480px;
+    float: left;
+    padding-top: 20px;
+    background-color: white;
+}
+#leftmenu li{
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    background-color: white;
+    font-size: 14px;
+    color: gray;
+    font-family: "微软雅黑";
+    padding-left: 18px;
+    letter-spacing: 1px;
+}
+#leftmenu li:hover{
+    background-color: lightgray;
+    transition:background-color 0.3s linear;
+}
+.centermenu li{
+    list-style: none;
+    float: left;
+}
+.centermenu {
+    display: none;background-color: white;width:1000px;height: 490px;
+    margin-left: 173px;
+    box-shadow: 0 0 10px grey;
+    position: absolute;
+    z-index: 111;
+}
+.menutable1{
+    width: 100px;text-align: right;padding-right: 20px;
+    font-weight: bold;padding-bottom: 5px;padding-top: 5px;
+}
+.menutable2{
+    padding-left: 10px;padding-right: 5px;border-left: 1px solid lightgray;
+    color: #333333;
+}
+.mainleftpic{
+    float: left;border: 0px solid blue; padding-left: 10px;padding-right: 10px;
+}
+.topLeftPic{
+    width:190px;height: 150px;margin-top: 10px;margin-bottom: 10px;
+
+}
+.topLeftPic:hover{
+    opacity: 0.6;
+    transition:opacity 0.2s linear;
+}
+.menuRight{
+    float: left;margin-top: 10px;width: 180px;height: 470px;
+    background-color: white;
+}
+.menuRightTop{
+    text-align: center;
+    border: 0px solid black;
+    padding-bottom: 30px;
+}
+.menuRightTop p{
+    margin-top: 10px;
+    color: dimgray;
+}
+.menuRightTop img{
+    width: 55px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0 0 20px grey;
+}
+.location{
+    margin-right: 110px;
+    width: 60px;
+    text-align: center;
+}
+.location:hover{
+    background-color: white;
+}
+.locationMenu table{
+    margin: 0 auto;
+}
+.locationMenu td{
+    margin-top: 5px;
+    height: 10px;
+    width: 60px;
+}
+.locationMenu td:hover{
+    background-color: red;
+    color: white;
+    transition:background-color 0.3s linear;
+}
+.menuRightButton{
+    width: 73px;height:28px;
+    line-height:28px;
+    border-radius: 20px 20px 20px 20px;
+    border: 0;
+    font-size: 13px;
+}
+.menuRightButton:hover{
+    background-color: red;
+    color: white;
+}
+.mrBtn1{
+    background-color: white; color: red;
+    box-shadow: 10px 5px 20px lightgray;
+}
+.mrBtn2{
+    background-color: dimgray; color:lightgray;
+    box-shadow: 10px 5px 20px lightgray;
+}
+.menuRighta1{
+    width: 100px;
+    margin-right: 10px;
+    font-size: 13px;
+    margin-left: 10px;
+    color: black;
+}
+.menuRighta2{
+    margin-left: 10px;
+    width: 100px;
+    font-size: 13px;
+    color: black;
+}
+.menuRighta3{
+    margin-left: 7px;
+    margin-right: 5px;
+    color: black;
+}
+.menuRighta1:hover,.menuRighta2:hover{
+    color:black ;
+}
+.menuRighta3:hover{
+    color: red;
+    text-decoration: none;
+}
+.cuxiao{
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.gonggao{
+    display: none;
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.cuxiao p,.gonggao p{
+    height: 13px;
+}
+.cuxiao a,.gonggao a{
+    color: dimgray;
+}
+.cuxiao a:hover,.gonggao a:hover{
+    color: red;
+}
+.menuRightMedium{
+    border: 0px solid red;
+    margin-bottom:20px;
+}
+.menuRightMedium a{
+    text-decoration: none;
+}
+.menuRightBottom{
+    border: 1px solid black;
+}
+.firstList{
+    border: 0px solid black;
+    height: 280px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.firstListLeft{
+    float: left;
+    border: 1px solid red;
+    width: 190px;height: 280px;
+    background-color: rgba(232,54,50,1);
+    text-align: center;
+}
+.goodsPic1{
+    display: block; margin: 0 auto;
+}
+.goodsPic2{
+    display: none; margin: 0 auto;
+}
+.goods1{
+    color: red;font-size:25px;
+}
+.goods2{
+    color: gray;font-size:25px;
+}
+.goodsList1{
+    border: 0px solid red;list-style: none;float:left;display: block;
+}
+.goodsList2{
+    border: 0px solid red;list-style: none;float:left;display: none;
+}
+.goodsList1 li,.goodsList2 li{
+    border: 1px solid #F0F3EF;width: 200px;height: 270px;float:left;
+    text-align: center;
+}
+.goodsList1 a,.goodsList2 a{
+    text-decoration: none;
+}
+.goodsList1 p,.goodsList2 p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: gray;
+}
+.goodsList1 p:hover,.goodsList2 p:hover{
+    color: red;
+}
+.goodsList1 img,.goodsList2 img{
+    border: 0px solid red;
+    margin-top: 30px;
+}
+.goodsList1 img:hover,.goodsList2 img:hover{
+    opacity: 0.6;
+    transition:opacity 0.2s linear;
+}
+.goodsList1 table,.goodsList2 table{
+    margin: 0 auto;
+    height: 20px;
+    line-height: 20px;
+}
+
+.goodsListTable1{
+    width: 80px;background-color: red;color: white;border: 1px solid red;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.goodsListTable2{
+    width: 80px;background-color: white;color: gray;border: 1px solid red;
+    font-size: 13px;
+    text-decoration: line-through;
+}
+.goodsListLeft{
+    color: red;font-size:35px;
+    height: 10px;
+}
+.goodsListRight{
+    color: gray;font-size:35px;
+}
+.goodsListSpot{
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: -40px;
+    height: 0px;
+}
+.SecondLeftList{
+    width: 20%;height:35px;line-height:35px;float:left;
+    color: dimgray;
+    font-size: 12px;
+}
+.SecondLeftList:hover{
+    color: red;
+}
+.SecondLeftMenu{
+    height: 35px;width: 100%;border: 0px solid green;text-align: center;background-color: rgba(247,247,247,0.69);
+}
+.SecondLeftMenu a{
+    text-decoration: none;
+    color: dimgray;
+}
+.SecondLeftMenu a:hover{
+    color: red;
+}
+.SecondLeft{
+    border: 0px solid red;width: 390px;height: 450px;float: left;
+}
+.SecondLeftTop{
+    border: 0px solid blue;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 23px;
+    background-color: white;
+    padding-left: 20px;
+    font-family: '微软雅黑 Light';
+    font-weight: 600;
+    color: black;
+}
+.SecondLeftTop a{
+     text-decoration: none;
+    color: black;
+ }
+.SecondLeftMain{
+    height: 355px;width: 100%;border: 0px solid black;background-color: white;
+}
+.SecondLeftListImg{
+    float:left;line-height: 100px;padding-left: 20px;padding-right: 15px;
+}
+.SecondLeftListNum1{
+    color: rgba(231,66,64,1);
+    font-size: 40px;
+    line-height: 100px;
+    float:left;
+    font-weight: 700;
+    padding-right: 10px;
+}
+.SecondLeftListNum2{
+    color: rgba(237,113,61,1);
+    font-size: 40px;
+    line-height: 100px;
+    float:left;
+    font-weight: 700;
+    padding-right: 10px;
+}
+.SecondLeftListNum3{
+    color: rgba(254,177,133,1);
+    font-size: 40px;
+    line-height: 100px;
+    float:left;
+    font-weight: 700;
+    padding-right: 10px;
+}
+.SecondLeftListTxt{
+    font-size: 12px;float:left;width: 220px;margin-top: 30px;
+}
+.SecondLeftListMain{
+    width:100%;height: 100px;
+}
+.SecondLeftListA{
+    color: dimgray;
+}
+.SecondLeftListA:hover{
+    color: red;
+    transition:color 0.2s linear;
+}
+.SecondLeftListMain img:hover{
+    opacity: 0.6;
+    transition:opacity 0.2s linear;
+}
