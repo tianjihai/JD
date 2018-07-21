@@ -8,7 +8,6 @@
     <script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <script src="js/jquery-3.3.1.min.js"></script>
 
@@ -66,6 +65,42 @@
                 $(".goodsListLeft").css('color', 'gray');
             });
 
+
+            $("#SecondLeftList1").mouseover(function () {
+                $("#SecondLeftList11").css('display', 'block');
+                $("#SecondLeftList22").css('display', 'none');
+                $("#SecondLeftList33").css('display', 'none');
+                $("#SecondLeftList44").css('display', 'none');
+                $("#SecondLeftList55").css('display', 'none');
+            });
+            $("#SecondLeftList2").mouseover(function () {
+                $("#SecondLeftList11").css('display', 'none');
+                $("#SecondLeftList22").css('display', 'block');
+                $("#SecondLeftList33").css('display', 'none');
+                $("#SecondLeftList44").css('display', 'none');
+                $("#SecondLeftList55").css('display', 'none');
+            });
+            $("#SecondLeftList3").mouseover(function () {
+                $("#SecondLeftList11").css('display', 'none');
+                $("#SecondLeftList22").css('display', 'none');
+                $("#SecondLeftList33").css('display', 'block');
+                $("#SecondLeftList44").css('display', 'none');
+                $("#SecondLeftList55").css('display', 'none');
+            });
+            $("#SecondLeftList4").mouseover(function () {
+                $("#SecondLeftList11").css('display', 'none');
+                $("#SecondLeftList22").css('display', 'none');
+                $("#SecondLeftList33").css('display', 'none');
+                $("#SecondLeftList44").css('display', 'block');
+                $("#SecondLeftList55").css('display', 'none');
+            });
+            $("#SecondLeftList5").mouseover(function () {
+                $("#SecondLeftList11").css('display', 'none');
+                $("#SecondLeftList22").css('display', 'none');
+                $("#SecondLeftList33").css('display', 'none');
+                $("#SecondLeftList44").css('display', 'none');
+                $("#SecondLeftList55").css('display', 'block');
+            });
 
 
         });
@@ -417,6 +452,13 @@
             margin-top: -40px;
             height: 0px;
         }
+        .SecondLeftList{
+            width: 20%;height:35px;line-height:35px;float:left;
+            color: dimgray;
+        }
+        .SecondLeftList:hover{
+            color: red;
+        }
     </style>
 </head>
 <body>
@@ -435,7 +477,6 @@
         <li>网站导航<span style="float: right;">|</span></li>
         <li>手机京东</li>
     </ul>
-
 
         <ul class="location" >北京
             <div class="locationMenu" style="display: none;background-color: white;width:300px;height: 250px;
@@ -829,8 +870,6 @@
                 </a>
             </div>
         </div>
-
-        
         
         <div class="mainleftpic" >
 
@@ -906,11 +945,7 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
-
-
     </div>
 
     <div class="firstList" >
@@ -1051,6 +1086,39 @@
                 <span class="goods2" >&bull;</span>
             </div>
         </div>
+        </div>
+    </div>
+
+
+    <div style="border: 1px solid black;width: 100%;height: 500px;float: left;">
+        <div style="border: 1px solid red;width: 390px;height: 450px;float: left;">
+            <div style="border: 1px solid blue;width: 100%;height: 60px;line-height: 60px;font-size: 23px;background-color: white;padding-left: 20px;font-family: '微软雅黑 Light'; font-weight: 600;">
+                <a href="">排行榜 <img src="img/Rbutton.png" alt=""><span style="font-size: 14px;color: gray;margin-left: 6px; ">专属你的购物指南</span></a>
+            </div>
+            <div style="height: 35px;width: 100%;border: 1px solid green;text-align: center;">
+                <div class="SecondLeftList" id="SecondLeftList1"><a href="">大家电</a></div>
+                <div class="SecondLeftList" id="SecondLeftList2"><a href="">手机通讯</a></div>
+                <div class="SecondLeftList" id="SecondLeftList3"><a href="">生活电器</a></div>
+                <div class="SecondLeftList" id="SecondLeftList4"><a href="">饮料冲调</a></div>
+                <div class="SecondLeftList" id="SecondLeftList5"><a href="">厨房小电</a></div>
+            </div>
+            <div style="height: 355px;width: 100%;border: 1px solid black;">
+                <div id="SecondLeftList11" style="display: block;">大家电</div>
+                <div id="SecondLeftList22" style="display: none;">手机通讯</div>
+                <div id="SecondLeftList33" style="display: none;">生活电器</div>
+                <div id="SecondLeftList44" style="display: none;">饮料冲调</div>
+                <div id="SecondLeftList55" style="display: none;">厨房小电</div>
+            </div>
+        </div>
+
+        <div style="border: 1px solid red;width: 390px;height: 450px;float: left;margin-left: 14px;">
+            <div style="border: 1px solid blue;width: 100%;height: 60px;">排行榜</div>
+            <div style="height: 390px;width: 100%;border: 1px solid black;"></div>
+        </div>
+
+        <div style="border: 1px solid red;width: 390px;height: 450px;float: right;">
+            <div style="border: 1px solid blue;width: 100%;height: 60px;">排行榜</div>
+            <div style="height: 390px;width: 100%;border: 1px solid black;"></div>
         </div>
     </div>
 
