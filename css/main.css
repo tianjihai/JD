@@ -386,8 +386,29 @@ body{
 .SecondLeftListImg{
     float:left;line-height: 100px;padding-left: 20px;padding-right: 15px;
 }
-.SecondLeftListNum{
-    color: rgba(231,66,64,1);font-size: 40px;line-height: 100px;float:left;font-weight: 700;padding-right: 10px;
+.SecondLeftListNum1{
+    color: rgba(231,66,64,1);
+    font-size: 40px;
+    line-height: 100px;
+    float:left;
+    font-weight: 700;
+    padding-right: 10px;
+}
+.SecondLeftListNum2{
+    color: rgba(237,113,61,1);
+    font-size: 40px;
+    line-height: 100px;
+    float:left;
+    font-weight: 700;
+    padding-right: 10px;
+}
+.SecondLeftListNum3{
+    color: rgba(254,177,133,1);
+    font-size: 40px;
+    line-height: 100px;
+    float:left;
+    font-weight: 700;
+    padding-right: 10px;
 }
 .SecondLeftListTxt{
     font-size: 12px;float:left;width: 220px;margin-top: 30px;
