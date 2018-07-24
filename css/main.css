@@ -484,3 +484,12 @@ body{
 .DigitalMainContent2{
     width: 400px;height: 450px;float: left;margin-left: 6px;margin-right: 6px;background-color: white;
 }
+.DigitalMainContent2 span{
+    font-size: 14px;color: gray;margin-left: 6px;
+}
+.DigitalMainContent3{
+    width: 380px;height: 450px;float: left;margin-left: 6px;
+}
+.DigitalMainContent3Border{
+    border: 5px solid black; width: 340px;height: 420px;margin-left: 40px;margin-top: 30px;
+}
