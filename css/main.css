@@ -373,7 +373,7 @@ body{
     background-color: white;
     padding-left: 20px;
     font-family: '微软雅黑 Light';
-    font-weight: 600;
+    font-weight: 500;
     color: black;
 }
 .SecondLeftTop a{
@@ -439,4 +439,57 @@ body{
 }
 .SecondCenter1Txt p{
     color: gray;padding-top: 8px;
+}
+
+.DigitalMain{
+    border: 2px solid blue;width: 100%;  float: left;
+}
+.DigitalMain img:hover{
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+.DigitalMainHead{
+    width:100%;border: 0px solid black; height: 80px;float:left;
+}
+.DigitalMainHead>div{
+    margin: 0 auto;width: 282px;height: 80px;line-height: 80px;
+}
+.DigitalMainHeadtxt{
+    float: left;height: 80px;font-size: 24px;font-weight: 600;
+}
+.DigitalMainHeadHr{
+    float: left;height: 80px;padding: 20px;
+}
+.DigitalMainHeadHr>hr{
+    width: 45px;border:1px solid black;
+}
+.DigitalMainContent{
+    border: 1px solid red;width: 100%;float: left;
+}
+.DigitalMainContent1{
+    border: 0px solid red;width: 390px;height: 450px;float: left; background-color: white;margin-right: 6px;
+}
+.DigitalMainContent1 table{
+    margin: 20px auto;width: 350px;text-align: center;
+}
+.DigitalMainContent1 table td{
+    border: 1px solid lightgray;
+}
+.DigitalMainContent1Center{
+    height: 390px;width: 100%;text-align: center;
+}
+.DigitalMainContentImg{
+    display: inline;padding: 5px;
+}
+.DigitalMainContent2{
+    width: 400px;height: 450px;float: left;margin-left: 6px;margin-right: 6px;background-color: white;
+}
+.DigitalMainContent2 span{
+    font-size: 14px;color: gray;margin-left: 6px;
+}
+.DigitalMainContent3{
+    width: 380px;height: 450px;float: left;margin-left: 6px;
+}
+.DigitalMainContent3Border{
+    border: 5px solid black; width: 340px;height: 420px;margin-left: 40px;margin-top: 30px;
 }
