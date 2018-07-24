@@ -440,3 +440,22 @@ body{
 .SecondCenter1Txt p{
     color: gray;padding-top: 8px;
 }
+
+.DigitalMain{
+    border: 2px solid blue;width: 100%;  float: left;
+}
+.DigitalMainHead{
+    width:100%;border: 0px solid black; height: 80px;float:left;
+}
+.DigitalMainHead>div{
+    margin: 0 auto;width: 282px;height: 80px;line-height: 80px;
+}
+.DigitalMainHeadtxt{
+    float: left;height: 80px;font-size: 24px;font-weight: 600;
+}
+.DigitalMainHeadHr{
+    float: left;height: 80px;padding: 20px;
+}
+.DigitalMainHeadHr>hr{
+    width: 45px;border:1px solid black;
+}
