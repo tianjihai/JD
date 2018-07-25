@@ -442,23 +442,23 @@ body{
 }
 
 .DigitalMain{
-    border: 2px solid blue;width: 100%;  float: left;
+    border: 0px solid blue;width: 100%;  float: left;
 }
 .DigitalMain img:hover{
     opacity: 0.8;
     transition: opacity 0.3s;
 }
 .DigitalMainHead{
-    width:100%;border: 0px solid black; height: 80px;float:left;
+    width:100%;border: 0px solid black; height: 90px;float:left;
 }
 .DigitalMainHead>div{
-    margin: 0 auto;width: 282px;height: 80px;line-height: 80px;
+    margin: 0 auto;width: 282px;height: 90px;line-height: 80px;
 }
 .DigitalMainHeadtxt{
-    float: left;height: 80px;font-size: 24px;font-weight: 600;
+    float: left;height: 90px;font-size: 25px;font-weight: 500;
 }
 .DigitalMainHeadHr{
-    float: left;height: 80px;padding: 20px;
+    float: left;height: 90px;padding: 20px;
 }
 .DigitalMainHeadHr>hr{
     width: 45px;border:1px solid black;
@@ -524,4 +524,30 @@ body{
 .JiaJuLeftPic img{
     margin-left: 10px;
     margin-right:10px;
+}
+.JiaJuRightPic{
+    width: 395px;height: 450px;float: right;
+}
+.JiaJuRightPicBorder{
+    border: 5px solid black; width: 370px;height: 420px;margin-left: 25px;margin-top: 30px;
+}
+.JiaJuCenterPic2{
+    width: 390px;height: 450px;float: left;margin-left: 12px;
+}
+.JiaJuCenterPic2 a{
+    text-decoration: none;
+}
+.JiaJuCenterPic2>div{
+    float: left;width: 190px;height: 220px;background-color: white; text-align: center;
+}
+.JiaJuCenterPic2 img{
+    padding: 20px;
+}
+.JiaJuCenterPic2 p{
+    font-size: 16px;
+    color: black;
+}
+.JiaJuCenterPic2 p:hover{
+    color: red;
+    transition: color 0.3s;
 }
