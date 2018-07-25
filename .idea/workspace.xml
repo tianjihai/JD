@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61a90165-8bf8-4445-9673-268c7e247a9f" name="Default" comment="会买专辑模块">
+    <list default="true" id="61a90165-8bf8-4445-9673-268c7e247a9f" name="Default" comment="完成数码模块">
+      <change afterPath="$PROJECT_DIR$/img/jiaju/Piclogo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/center1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/center2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/center3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/center4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/center5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/center6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/center7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/left11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/left2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/left3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/left4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/left5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/right1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/right2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/right3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jiaju/right4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
@@ -19,24 +36,25 @@
     <session id="-682980153">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="245" />
-          <entry key="html" value="1162" />
-          <entry key="txt" value="32" />
+          <entry key="css" value="394" />
+          <entry key="html" value="1898" />
+          <entry key="txt" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="245" />
-          <entry key="HTML" value="1162" />
-          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="CSS" value="394" />
+          <entry key="HTML" value="1898" />
+          <entry key="PLAIN_TEXT" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,11 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="974" column="38" selection-start-line="974" selection-start-column="20" selection-end-line="974" selection-end-column="38" />
+            <state relative-caret-position="259">
+              <caret line="1091" column="42" selection-start-line="1091" selection-start-column="42" selection-end-line="1091" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -142,10 +160,7 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -154,6 +169,19 @@
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#2;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,11 +196,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="466" column="4" selection-start-line="466" selection-start-column="4" selection-end-line="466" selection-end-column="4" />
+            <state relative-caret-position="308">
+              <caret line="521" column="22" selection-start-line="521" selection-start-column="22" selection-end-line="521" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -219,9 +247,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="151" />
-    <option name="y" value="-14" />
-    <option name="width" value="1093" />
+    <option name="x" value="258" />
+    <option name="y" value="-25" />
+    <option name="width" value="903" />
     <option name="height" value="587" />
   </component>
   <component name="ProjectView">
@@ -235,6 +263,11 @@
             <path>
               <item name="JD2" type="b2602c69:ProjectViewProjectNode" />
               <item name="JD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JD2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JD" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JD2" type="b2602c69:ProjectViewProjectNode" />
@@ -257,15 +290,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebStorm\MyProject\JD\img\mainpic" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStorm\MyProject\JD\img\jiaju" />
       <recent name="D:\WebStorm\MyProject\JD\img\digitalPic" />
       <recent name="D:\WebStorm\MyProject\JD\img\goodsLink" />
       <recent name="D:\WebStorm\MyProject\JD\img" />
       <recent name="D:\WebStorm\MyProject\JD\img\goodsList" />
-      <recent name="D:\WebStorm\MyProject\JD\img\mainpic" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WebStorm\MyProject\JD\img\mainpic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,6 +346,7 @@
       <workItem from="1532393391705" duration="421000" />
       <workItem from="1532394011618" duration="542000" />
       <workItem from="1532395464256" duration="6102000" />
+      <workItem from="1532527883212" duration="3108000" />
     </task>
     <task id="LOCAL-00001" summary="修改主页">
       <created>1531754500683</created>
@@ -517,11 +551,25 @@
       <option name="project" value="LOCAL" />
       <updated>1532401389471</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="完成数码模块">
+      <created>1532485612845</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1532485612846</updated>
+    </task>
+    <task id="LOCAL-00031" summary="修改排行榜内容">
+      <created>1532528567281</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1532528567281</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77932000" />
+    <option name="totallyTimeSpent" value="81291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -540,7 +588,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5029762" side_tool="true" weight="0.3355372" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49702382" weight="0.14942528" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49702382" weight="0.3908046" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -605,8 +653,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改主页菜单2" />
-    <MESSAGE value="修改主页菜单3" />
     <MESSAGE value="修改主页添加图片" />
     <MESSAGE value="修改主页菜单栏部分" />
     <MESSAGE value="修改主页右侧菜单栏部分" />
@@ -630,7 +676,9 @@
     <MESSAGE value="数码模块第一排" />
     <MESSAGE value="数码模块样式整理" />
     <MESSAGE value="数码模块样式整理2" />
-    <option name="LAST_COMMIT_MESSAGE" value="数码模块样式整理2" />
+    <MESSAGE value="完成数码模块" />
+    <MESSAGE value="修改排行榜内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改排行榜内容" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../JD2/js/npm.js" />
@@ -646,10 +694,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="521" column="22" selection-start-line="521" selection-start-column="22" selection-end-line="521" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="974" column="38" selection-start-line="974" selection-start-column="20" selection-end-line="974" selection-end-column="38" />
+        <state relative-caret-position="259">
+          <caret line="1091" column="42" selection-start-line="1091" selection-start-column="42" selection-end-line="1091" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -733,10 +788,7 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -745,14 +797,20 @@
             <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#2;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="466" column="4" selection-start-line="466" selection-start-column="4" selection-end-line="466" selection-end-column="4" />
         </state>
       </provider>
     </entry>

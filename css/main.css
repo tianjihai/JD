@@ -508,3 +508,20 @@ body{
 .DigitalMainContent6 span{
     font-size: 14px;color: gray;margin-left: 6px;
 }
+.JiaJuCenterPic{
+    margin-top: 5px;
+}
+.JiaJuCenterPic img{
+    margin: 3px;
+}
+.JiajulMainContent1{
+    width: 390px;height: 450px;float: left; background-color: white;margin-left: 13px;
+}
+.JiaJuLeftPic{
+    width: 100%;overflow: hidden;text-align: center;
+    padding-top: 25px;
+}
+.JiaJuLeftPic img{
+    margin-left: 10px;
+    margin-right:10px;
+}
