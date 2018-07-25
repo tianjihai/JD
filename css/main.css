@@ -464,7 +464,7 @@ body{
     width: 45px;border:1px solid black;
 }
 .DigitalMainContent{
-    border: 1px solid red;width: 100%;float: left;
+    width: 100%;float: left;
 }
 .DigitalMainContent1{
     border: 0px solid red;width: 390px;height: 450px;float: left; background-color: white;margin-right: 6px;
@@ -488,8 +488,23 @@ body{
     font-size: 14px;color: gray;margin-left: 6px;
 }
 .DigitalMainContent3{
-    width: 380px;height: 450px;float: left;margin-left: 6px;
-}
+     width: 380px;height: 450px;float: left;margin-left: 6px;
+ }
 .DigitalMainContent3Border{
     border: 5px solid black; width: 340px;height: 420px;margin-left: 40px;margin-top: 30px;
+}
+.DigitalMainContent4{
+    width: 380px;height: 450px;float: left;margin-right: 6px;
+}
+.DigitalMainContent4Border{
+    border: 5px solid black; width: 340px;height: 420px;margin-top: 30px;
+}
+.DigitalMainContent5{
+    border: 0px solid red;width: 400px;height: 450px;float: left;margin-left: 14px;
+}
+.DigitalMainContent6{
+    width: 380px;height: 450px;float: left;margin-left: 12px;background-color: white;
+}
+.DigitalMainContent6 span{
+    font-size: 14px;color: gray;margin-left: 6px;
 }
