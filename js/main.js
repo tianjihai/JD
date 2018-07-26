@@ -88,5 +88,30 @@ $(document).ready(function () {
         $("#SecondLeftList55").fadeIn(200);
     });
 
+    $(".Tese1").mouseover(function () {
+        $(".TeseUl1").fadeIn(150);
+        $(".TeseUl2").hide();
+        $(".TeseUl3").hide();
+        $(".Tese1").css('color', 'red');
+        $(".Tese2").css('color', 'darkgray');
+        $(".Tese3").css('color', 'darkgray');
+    });
+    $(".Tese2").mouseover(function () {
+        $(".TeseUl2").fadeIn(150);
+        $(".TeseUl1").hide();
+        $(".TeseUl3").hide();
+        $(".Tese2").css('color', 'red');
+        $(".Tese1").css('color', 'darkgray');
+        $(".Tese3").css('color', 'darkgray');
+    });
+    $(".Tese3").mouseover(function () {
+        $(".TeseUl3").fadeIn(150);
+        $(".TeseUl1").hide();
+        $(".TeseUl2").hide();
+        $(".Tese3").css('color', 'red');
+        $(".Tese1").css('color', 'darkgray');
+        $(".Tese2").css('color', 'darkgray');
+    });
+
 
 });
