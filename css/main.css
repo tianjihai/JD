@@ -590,30 +590,37 @@ body{
     text-decoration: none;
     color: black;
 }
-.Tese1{
-    color: red;
-    font-size: 30px;
+.Tese11{
     display: block;
     float: left;
-    height: 30px;
-    width: 15px;
-    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width:10px;height:10px;
+    margin-top: 10px;
+    background-color: red;
+    border-radius:5px;
+    border: 0px solid darkgray;
+    box-shadow: 0 0 5px red;
 }
-.Tese2{
-    color: darkgray;
-    font-size: 30px;
+.Tese22{
     display: block;
     float: left;
-    height: 30px;
-    width: 15px;
-    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width:10px;height:10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius:5px;
+    border: 2px solid darkgray;
 }
-.Tese3{
-    color: darkgray;
-    font-size: 30px;
+.Tese33{
     display: block;
     float: left;
-    height: 30px;
-    width: 15px;
-    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width:10px;height:10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius:5px;
+    border: 2px solid darkgray;
 }

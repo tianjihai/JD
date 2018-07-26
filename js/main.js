@@ -88,29 +88,29 @@ $(document).ready(function () {
         $("#SecondLeftList55").fadeIn(200);
     });
 
-    $(".Tese1").mouseover(function () {
+    $(".Tese11").mouseover(function () {
         $(".TeseUl1").fadeIn(150);
         $(".TeseUl2").hide();
         $(".TeseUl3").hide();
-        $(".Tese1").css('color', 'red');
-        $(".Tese2").css('color', 'darkgray');
-        $(".Tese3").css('color', 'darkgray');
+        $(".Tese11").css('background-color', 'red').css('border','0px solid darkgray').css('box-shadow','0 0 5px red');
+        $(".Tese22").css('background-color', 'white').css('border','1px solid darkgray').css('box-shadow','none');
+        $(".Tese33").css('background-color', 'white').css('border','1px solid darkgray').css('box-shadow','none');
     });
-    $(".Tese2").mouseover(function () {
+    $(".Tese22").mouseover(function () {
         $(".TeseUl2").fadeIn(150);
         $(".TeseUl1").hide();
         $(".TeseUl3").hide();
-        $(".Tese2").css('color', 'red');
-        $(".Tese1").css('color', 'darkgray');
-        $(".Tese3").css('color', 'darkgray');
+        $(".Tese22").css('background-color', 'red').css('border','0px solid darkgray').css('box-shadow','0 0 5px red');
+        $(".Tese11").css('background-color', 'white').css('border','1px solid darkgray').css('box-shadow','none');
+        $(".Tese33").css('background-color', 'white').css('border','1px solid darkgray').css('box-shadow','none');
     });
-    $(".Tese3").mouseover(function () {
+    $(".Tese33").mouseover(function () {
         $(".TeseUl3").fadeIn(150);
         $(".TeseUl1").hide();
         $(".TeseUl2").hide();
-        $(".Tese3").css('color', 'red');
-        $(".Tese1").css('color', 'darkgray');
-        $(".Tese2").css('color', 'darkgray');
+        $(".Tese33").css('background-color', 'red').css('border','0px solid darkgray').css('box-shadow','0 0 5px red');
+        $(".Tese11").css('background-color', 'white').css('border','1px solid darkgray').css('box-shadow','none');
+        $(".Tese22").css('background-color', 'white').css('border','1px solid darkgray').css('box-shadow','none');
     });
 
 
