@@ -28,27 +28,27 @@ $(document).ready(function () {
     $(".goods1").mouseover(function () {
         $(".goodsPic1").fadeIn(150);
         $(".goodsPic2").hide();
-        $(".goods1").css('color', 'red');
-        $(".goods2").css('color', 'gray');
+        $(".goods1").css('background-color', 'red').css('border','0px solid darkgray').css('box-shadow','0 0 5px red');
+        $(".goods2").css('background-color', 'white').css('border','2px solid darkgray').css('box-shadow','none');
     });
     $(".goods2").mouseover(function () {
         $(".goodsPic2").fadeIn(150);
         $(".goodsPic1").hide();
-        $(".goods2").css('color', 'red');
-        $(".goods1").css('color', 'gray');
+        $(".goods2").css('background-color', 'red').css('border','0px solid darkgray').css('box-shadow','0 0 5px red');
+        $(".goods1").css('background-color', 'white').css('border','2px solid darkgray').css('box-shadow','none');
     });
 
     $(".goodsListLeft").mouseover(function () {
         $(".goodsList1").fadeIn(200);
         $(".goodsList2").hide();
-        $(".goodsListLeft").css('color', 'red');
-        $(".goodsListRight").css('color', 'gray');
+        $(".goodsListLeft").css('background-color', 'red').css('border','0px solid darkgray').css('box-shadow','0 0 5px red');
+        $(".goodsListRight").css('background-color', 'white').css('border','2px solid darkgray').css('box-shadow','none');
     });
     $(".goodsListRight").mouseover(function () {
         $(".goodsList2").fadeIn(200);
         $(".goodsList1").hide();
-        $(".goodsListRight").css('color', 'red');
-        $(".goodsListLeft").css('color', 'gray');
+        $(".goodsListRight").css('background-color', 'red').css('border','0px solid darkgray').css('box-shadow','0 0 5px red');
+        $(".goodsListLeft").css('background-color', 'white').css('border','2px solid darkgray').css('box-shadow','none');
     });
 
 
@@ -86,6 +86,31 @@ $(document).ready(function () {
         $("#SecondLeftList33").hide();
         $("#SecondLeftList44").hide();
         $("#SecondLeftList55").fadeIn(200);
+    });
+
+    $(".Tese11").mouseover(function () {
+        $(".TeseUl1").fadeIn(150);
+        $(".TeseUl2").hide();
+        $(".TeseUl3").hide();
+        $(".Tese11").css('background-color', 'red').css('border','0px solid darkgray').css('box-shadow','0 0 5px red');
+        $(".Tese22").css('background-color', 'white').css('border','2px solid darkgray').css('box-shadow','none');
+        $(".Tese33").css('background-color', 'white').css('border','2px solid darkgray').css('box-shadow','none');
+    });
+    $(".Tese22").mouseover(function () {
+        $(".TeseUl2").fadeIn(150);
+        $(".TeseUl1").hide();
+        $(".TeseUl3").hide();
+        $(".Tese22").css('background-color', 'red').css('border','0px solid darkgray').css('box-shadow','0 0 5px red');
+        $(".Tese11").css('background-color', 'white').css('border','2px solid darkgray').css('box-shadow','none');
+        $(".Tese33").css('background-color', 'white').css('border','2px solid darkgray').css('box-shadow','none');
+    });
+    $(".Tese33").mouseover(function () {
+        $(".TeseUl3").fadeIn(150);
+        $(".TeseUl1").hide();
+        $(".TeseUl2").hide();
+        $(".Tese33").css('background-color', 'red').css('border','0px solid darkgray').css('box-shadow','0 0 5px red');
+        $(".Tese11").css('background-color', 'white').css('border','2px solid darkgray').css('box-shadow','none');
+        $(".Tese22").css('background-color', 'white').css('border','2px solid darkgray').css('box-shadow','none');
     });
 
 

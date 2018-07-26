@@ -278,10 +278,23 @@ body{
     display: none; margin: 0 auto;
 }
 .goods1{
-    color: red;font-size:25px;
+    display: block;
+    float: left;
+    margin: 5px;
+    width:10px;height:10px;
+    background-color: red;
+    border-radius:5px;
+    border: 0px solid darkgray;
+    box-shadow: 0 0 5px red;
 }
 .goods2{
-    color: gray;font-size:25px;
+    display: block;
+    float: left;
+    margin: 5px;
+    width:10px;height:10px;
+    background-color: white;
+    border-radius:5px;
+    border: 2px solid darkgray;
 }
 .goodsList1{
     border: 0px solid red;list-style: none;float:left;display: block;
@@ -330,18 +343,31 @@ body{
     text-decoration: line-through;
 }
 .goodsListLeft{
-    color: red;font-size:35px;
-    height: 10px;
+    display: block;
+    float: left;
+    margin: 5px;
+    width:10px;height:10px;
+    background-color: red;
+    border-radius:5px;
+    border: 0px solid darkgray;
+    box-shadow: 0 0 5px red;
 }
 .goodsListRight{
-    color: gray;font-size:35px;
+    display: block;
+    float: left;
+    margin: 5px;
+    width:10px;height:10px;
+    background-color: white;
+    border-radius:5px;
+    border: 2px solid darkgray;
 }
 .goodsListSpot{
     text-align: center;
     float: left;
     width: 100%;
-    margin-top: -40px;
-    height: 0px;
+    margin-top: -30px;
+    height: 30px;
+    overflow: hidden;
 }
 .SecondLeftList{
     width: 20%;height:35px;line-height:35px;float:left;
@@ -550,4 +576,86 @@ body{
 .JiaJuCenterPic2 p:hover{
     color: red;
     transition: color 0.3s;
+}
+.TeseList{
+    width: 100%;height: 330px;float: left;
+}
+.TeseUl1{
+    display: block;list-style: none;float: left;
+    width: 100%;text-align: center;
+}
+.TeseUl1 li,.TeseUl2 li,.TeseUl3 li{
+    float: left;
+    width: 390px;
+    margin: 4px;
+    background-color: white;
+}
+.TeseUl1 li>img{
+    margin-bottom: 20px;
+}
+.TeseUl2 li>img{
+    margin-bottom: 20px;
+}
+.TeseUl3 li>img{
+    margin-bottom: 20px;
+}
+.TeseUl2{
+    display: none;list-style: none;float: left;
+    width: 100%;text-align: center;
+}
+.TeseUl3{
+    display: none;list-style: none;float: left;
+    width: 100%;text-align: center;
+}
+
+.TestTxtTop{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 23px;
+    background-color: white;
+    padding-left: 20px;
+    font-family: '微软雅黑 Light';
+    font-weight: 500;
+    color: black;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.TestTxtTop a{
+    text-decoration: none;
+    color: black;
+}
+.Tese11{
+    display: block;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    width:10px;height:10px;
+    margin-top: 10px;
+    background-color: red;
+    border-radius:5px;
+    border: 0px solid darkgray;
+    box-shadow: 0 0 5px red;
+}
+.Tese22{
+    display: block;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    width:10px;height:10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius:5px;
+    border: 2px solid darkgray;
+}
+.Tese33{
+    display: block;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    width:10px;height:10px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius:5px;
+    border: 2px solid darkgray;
 }
