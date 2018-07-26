@@ -28,14 +28,14 @@ $(document).ready(function () {
     $(".goods1").mouseover(function () {
         $(".goodsPic1").fadeIn(150);
         $(".goodsPic2").hide();
-        $(".goods1").css('color', 'red');
-        $(".goods2").css('color', 'gray');
+        $(".goods1").css('background-color', 'red').css('border','0px solid darkgray').css('box-shadow','0 0 5px red');
+        $(".goods2").css('background-color', 'white').css('border','1px solid darkgray').css('box-shadow','none');
     });
     $(".goods2").mouseover(function () {
         $(".goodsPic2").fadeIn(150);
         $(".goodsPic1").hide();
-        $(".goods2").css('color', 'red');
-        $(".goods1").css('color', 'gray');
+        $(".goods2").css('background-color', 'red').css('border','0px solid darkgray').css('box-shadow','0 0 5px red');
+        $(".goods1").css('background-color', 'white').css('border','1px solid darkgray').css('box-shadow','none');
     });
 
     $(".goodsListLeft").mouseover(function () {

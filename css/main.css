@@ -278,10 +278,23 @@ body{
     display: none; margin: 0 auto;
 }
 .goods1{
-    color: red;font-size:25px;
+    display: block;
+    float: left;
+    margin: 5px;
+    width:10px;height:10px;
+    background-color: red;
+    border-radius:5px;
+    border: 0px solid darkgray;
+    box-shadow: 0 0 5px red;
 }
 .goods2{
-    color: gray;font-size:25px;
+    display: block;
+    float: left;
+    margin: 5px;
+    width:10px;height:10px;
+    background-color: white;
+    border-radius:5px;
+    border: 2px solid darkgray;
 }
 .goodsList1{
     border: 0px solid red;list-style: none;float:left;display: block;
