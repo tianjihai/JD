@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61a90165-8bf8-4445-9673-268c7e247a9f" name="Default" comment="特色模块小圆点修改">
+    <list default="true" id="61a90165-8bf8-4445-9673-268c7e247a9f" name="Default" comment="置顶图标">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,29 +19,32 @@
     <session id="-682980153">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.85" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="960" />
-          <entry key="html" value="2930" />
-          <entry key="js" value="73" />
-          <entry key="txt" value="76" />
+          <entry key="css" value="1052" />
+          <entry key="html" value="3140" />
+          <entry key="js" value="111" />
+          <entry key="txt" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="960" />
-          <entry key="HTML" value="2930" />
-          <entry key="JavaScript" value="73" />
-          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="CSS" value="1052" />
+          <entry key="HTML" value="3140" />
+          <entry key="JavaScript" value="111" />
+          <entry key="PLAIN_TEXT" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -64,11 +66,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="635" column="39" selection-start-line="635" selection-start-column="39" selection-end-line="635" selection-end-column="39" />
+            <state relative-caret-position="343">
+              <caret line="1329" column="109" selection-start-line="1329" selection-start-column="109" selection-end-line="1329" selection-end-column="109" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -95,9 +97,9 @@
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#29829#29835#1" expanded="true" />
-                <element signature="e#29889#29895#1" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -190,7 +192,6 @@
                 <element signature="n#style#0;n#div#3;n#div#1;n#div#2;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -207,11 +208,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+            <state relative-caret-position="479">
+              <caret line="129" column="42" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -219,8 +220,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="292" column="16" selection-start-line="292" selection-start-column="16" selection-end-line="292" selection-end-column="16" />
+            <state relative-caret-position="360">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -258,21 +259,27 @@
       <list>
         <option value="$PROJECT_DIR$/lunbo.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/Home.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/Home.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="258" />
-    <option name="y" value="-25" />
-    <option name="width" value="903" />
+    <option name="x" value="287" />
+    <option name="y" value="182" />
+    <option name="width" value="1093" />
     <option name="height" value="587" />
   </component>
   <component name="ProjectView">
@@ -292,11 +299,6 @@
               <item name="JD" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JD2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JD" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -306,23 +308,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="goods2&#9;null&#9;null&#10;goods1&#9;null&#9;null&#10;SecondLeftTop&#9;null&#9;null&#10;goodsListSpot&#9;null&#9;null&#10;DigitalMainContent4&#9;null&#9;null&#10;DigitalMainHeadtxt&#9;null&#9;null&#10;DigitalMain&#9;null&#9;null&#10;blue&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="goodsListSpot&#9;null&#9;null&#10;goodslistle&#9;null&#9;null&#10;goods2&#9;null&#9;null&#10;goods1&#9;null&#9;null&#10;SecondLeftTop&#9;null&#9;null&#10;DigitalMainContent4&#9;null&#9;null&#10;DigitalMainHeadtxt&#9;null&#9;null&#10;DigitalMain&#9;null&#9;null&#10;blue&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.9.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Apple" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WebStorm\MyProject\JD\img\mainpic" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStorm\MyProject\JD\img" />
       <recent name="D:\WebStorm\MyProject\JD\img\tese" />
       <recent name="D:\WebStorm\MyProject\JD\img\lifeGoods" />
       <recent name="D:\WebStorm\MyProject\JD\img\jiaju" />
       <recent name="D:\WebStorm\MyProject\JD\img\digitalPic" />
-      <recent name="D:\WebStorm\MyProject\JD\img\goodsLink" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebStorm\MyProject\JD\img\mainpic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,7 +377,10 @@
       <workItem from="1532395464256" duration="6102000" />
       <workItem from="1532527883212" duration="5105000" />
       <workItem from="1532572079579" duration="2436000" />
-      <workItem from="1532578899438" duration="4941000" />
+      <workItem from="1532578899438" duration="6150000" />
+      <workItem from="1532596928690" duration="544000" />
+      <workItem from="1532618474851" duration="978000" />
+      <workItem from="1532681573921" duration="2178000" />
     </task>
     <task id="LOCAL-00001" summary="修改主页">
       <created>1531754500683</created>
@@ -626,17 +634,38 @@
       <option name="project" value="LOCAL" />
       <updated>1532583325308</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="小圆点修改">
+      <created>1532583863651</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1532583863651</updated>
+    </task>
+    <task id="LOCAL-00038" summary="小圆点修改2">
+      <created>1532584992350</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1532584992350</updated>
+    </task>
+    <task id="LOCAL-00039" summary="置顶图标">
+      <created>1532683399773</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1532683399774</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90665000" />
+    <option name="totallyTimeSpent" value="95574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.265625" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17261904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -649,7 +678,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5029762" side_tool="true" weight="0.3355372" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49702382" weight="0.3908046" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49702382" weight="0.38423645" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -714,9 +743,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="主页轮播图" />
-    <MESSAGE value="商品展示区" />
-    <MESSAGE value="title修改" />
     <MESSAGE value="title修改2" />
     <MESSAGE value="商品展示区修改" />
     <MESSAGE value="鼠标悬停图片处渐变动画" />
@@ -739,7 +765,10 @@
     <MESSAGE value="生活模块编写" />
     <MESSAGE value="特色模块编写" />
     <MESSAGE value="特色模块小圆点修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="特色模块小圆点修改" />
+    <MESSAGE value="小圆点修改" />
+    <MESSAGE value="小圆点修改2" />
+    <MESSAGE value="置顶图标" />
+    <option name="LAST_COMMIT_MESSAGE" value="置顶图标" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../JD2/js/npm.js" />
@@ -756,10 +785,24 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/digitalPic/game2.jpg" />
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="129" column="42" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="635" column="39" selection-start-line="635" selection-start-column="39" selection-end-line="635" selection-end-column="39" />
+        <state relative-caret-position="343">
+          <caret line="1329" column="109" selection-start-line="1329" selection-start-column="109" selection-end-line="1329" selection-end-column="109" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -786,9 +829,9 @@
             <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#29829#29835#1" expanded="true" />
-            <element signature="e#29889#29895#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -881,7 +924,6 @@
             <element signature="n#style#0;n#div#3;n#div#1;n#div#2;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#2;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -894,20 +936,6 @@
             <element signature="n#style#0;n#div#2;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#7;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="292" column="16" selection-start-line="292" selection-start-column="16" selection-end-line="292" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
         </state>
       </provider>
     </entry>

@@ -114,4 +114,22 @@ $(document).ready(function () {
     });
 
 
+
+
+/*置顶图标实现置顶功能*/
+    $(window).scroll(function(){
+        if ($(window).scrollTop()>100){
+            $(".goTop").fadeIn(500);
+        }
+        else
+        {
+            $(".goTop").fadeOut(500);
+        }
+    });
+    $(".goTop").click(function(){
+        $('html').animate({scrollTop:0},1000);
+    });
+
+
+
 });
