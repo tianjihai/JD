@@ -7,6 +7,17 @@ body{
     border: 0px solid blue;
     width: 1200px;
 }
+.goTop{
+    display: none;
+    position: fixed;
+    bottom: 30px;right: 20px;
+    overflow: hidden;
+    width: 35px;height:35px;
+    text-align: center;
+}
+.goTop img{
+    width: 35px;
+}
 #headtit{
     border: 0px solid red;
     height: 35px;
