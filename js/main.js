@@ -127,7 +127,7 @@ $(document).ready(function () {
         }
     });
     $(".goTop").click(function(){
-        $('body,html').animate({scrollTop:0},1000);
+        $('html').animate({scrollTop:0},1000);
     });
 
 
