@@ -723,9 +723,9 @@ body{
     line-height: 100px;
     float: left;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    color: grey;
+    color: black;
 }
 .footSecond{
     width: 1200px;
