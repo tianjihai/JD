@@ -130,7 +130,7 @@ body{
     float: left;
 }
 .centermenu {
-    display: none;background-color: white;width:1000px;height: 490px;
+    display: none;background-color: white;width:1000px;height: 480px;
     margin-left: 173px;
     box-shadow: 0 0 10px grey;
     position: absolute;
