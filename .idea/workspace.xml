@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61a90165-8bf8-4445-9673-268c7e247a9f" name="Default" comment="定位图标">
+    <list default="true" id="61a90165-8bf8-4445-9673-268c7e247a9f" name="Default" comment="商品导航列表补充">
+      <change afterPath="$PROJECT_DIR$/img/mainpic/home4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +21,8 @@
     <session id="-682980153">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
@@ -33,36 +36,36 @@
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.85" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1822" />
-          <entry key="html" value="4119" />
-          <entry key="js" value="114" />
-          <entry key="txt" value="121" />
+          <entry key="css" value="1875" />
+          <entry key="html" value="4182" />
+          <entry key="js" value="181" />
+          <entry key="txt" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1822" />
-          <entry key="HTML" value="4119" />
-          <entry key="JavaScript" value="114" />
-          <entry key="PLAIN_TEXT" value="121" />
+          <entry key="CSS" value="1875" />
+          <entry key="HTML" value="4182" />
+          <entry key="JavaScript" value="181" />
+          <entry key="PLAIN_TEXT" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="jpg" value="1" />
+          <entry key="jpg" value="2" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="Image" value="1" />
+          <entry key="Image" value="2" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
@@ -71,11 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="1375" column="31" selection-start-line="1375" selection-start-column="31" selection-end-line="1376" selection-end-column="31" />
+            <state relative-caret-position="62">
+              <caret line="1508" column="31" selection-start-line="1508" selection-start-column="20" selection-end-line="1508" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -233,11 +236,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+            <state relative-caret-position="580">
+              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -245,8 +248,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="132" column="65" selection-start-line="132" selection-start-column="65" selection-end-line="132" selection-end-column="65" />
+            <state relative-caret-position="260">
+              <caret line="202" column="56" selection-start-line="202" selection-start-column="56" selection-end-line="202" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -283,9 +286,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lunbo.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/Home.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -312,6 +315,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,13 +326,18 @@
             <path>
               <item name="JD2" type="b2602c69:ProjectViewProjectNode" />
               <item name="JD" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JD2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JD" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="mainpic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,7 +345,7 @@
     <property name="SearchEverywhereHistoryKey" value="centermenu&#9;null&#9;null&#10;goodsListSpot&#9;null&#9;null&#10;goodslistle&#9;null&#9;null&#10;goods2&#9;null&#9;null&#10;goods1&#9;null&#9;null&#10;SecondLeftTop&#9;null&#9;null&#10;DigitalMainContent4&#9;null&#9;null&#10;DigitalMainHeadtxt&#9;null&#9;null&#10;DigitalMain&#9;null&#9;null&#10;blue&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.9.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/京东呼吸灯/01-jd" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -344,15 +353,15 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebStorm\MyProject\JD\img\mainpic" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStorm\MyProject\JD\img\mainpic" />
       <recent name="D:\WebStorm\MyProject\JD\fonts" />
       <recent name="D:\WebStorm\MyProject\JD\img" />
       <recent name="D:\WebStorm\MyProject\JD\img\tese" />
       <recent name="D:\WebStorm\MyProject\JD\img\lifeGoods" />
-      <recent name="D:\WebStorm\MyProject\JD\img\jiaju" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WebStorm\MyProject\JD\img\mainpic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,7 +422,8 @@
       <workItem from="1532872161085" duration="70000" />
       <workItem from="1532878169058" duration="737000" />
       <workItem from="1532941895872" duration="32000" />
-      <workItem from="1532948027553" duration="702000" />
+      <workItem from="1532948027553" duration="776000" />
+      <workItem from="1532948886127" duration="1401000" />
     </task>
     <task id="LOCAL-00001" summary="修改主页">
       <created>1531754500683</created>
@@ -730,17 +740,24 @@
       <option name="project" value="LOCAL" />
       <updated>1532878857571</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="商品导航列表补充">
+      <created>1532948775665</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1532948775665</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105674000" />
+    <option name="totallyTimeSpent" value="107149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17261904" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17261904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -818,7 +835,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="排行榜商品切换动画" />
     <MESSAGE value="会买专辑模块" />
     <MESSAGE value="优惠券模块" />
     <MESSAGE value="优惠券模块修改图片" />
@@ -843,7 +859,8 @@
     <MESSAGE value="footer部分大体完成" />
     <MESSAGE value="footer部分logo修改" />
     <MESSAGE value="定位图标" />
-    <option name="LAST_COMMIT_MESSAGE" value="定位图标" />
+    <MESSAGE value="商品导航列表补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品导航列表补充" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../JD2/js/npm.js" />
@@ -860,24 +877,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/digitalPic/game2.jpg" />
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="132" column="65" selection-start-line="132" selection-start-column="65" selection-end-line="132" selection-end-column="65" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/img/mainpic/home1.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="1375" column="31" selection-start-line="1375" selection-start-column="31" selection-end-line="1376" selection-end-column="31" />
+        <state relative-caret-position="62">
+          <caret line="1508" column="31" selection-start-line="1508" selection-start-column="20" selection-end-line="1508" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1031,6 +1037,20 @@
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="202" column="56" selection-start-line="202" selection-start-column="56" selection-end-line="202" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
         </state>
       </provider>
     </entry>
