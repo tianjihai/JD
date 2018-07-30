@@ -448,7 +448,8 @@ body{
     color: red;
 }
 .SecondLeftMenu{
-    height: 35px;width: 100%;border: 0px solid green;text-align: center;background-color: rgba(247,247,247,0.69);
+    height: 35px;width: 100%;border: 0px solid green;text-align: center;
+    background-color: rgba(247,247,247,1);
 }
 .SecondLeftMenu a{
     text-decoration: none;
@@ -459,6 +460,7 @@ body{
 }
 .SecondLeft{
     border: 0px solid red;width: 390px;height: 450px;float: left;
+    background-color: white;
 }
 .SecondLeftTop{
     border: 0px solid blue;
@@ -477,7 +479,8 @@ body{
     color: black;
  }
 .SecondLeftMain{
-    height: 355px;width: 100%;border: 0px solid black;background-color: white;
+    height: 310px;width: 100%;border: 0px solid black;background-color: white;
+    overflow: hidden;
 }
 .SecondLeftListImg{
     float:left;line-height: 100px;padding-left: 20px;padding-right: 15px;

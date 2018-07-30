@@ -93,39 +93,23 @@ $(document).ready(function () {
 
 
     $("#SecondLeftList1").mouseover(function () {
-        $("#SecondLeftList11").fadeIn(200);
-        $("#SecondLeftList22").hide();
+        $("#SecondLeftList11").fadeIn(200).siblings().hide();
+        /*$("#SecondLeftList22").hide();
         $("#SecondLeftList33").hide();
         $("#SecondLeftList44").hide();
-        $("#SecondLeftList55").hide();
+        $("#SecondLeftList55").hide();*/
     });
     $("#SecondLeftList2").mouseover(function () {
-        $("#SecondLeftList11").hide();
-        $("#SecondLeftList22").fadeIn(200);
-        $("#SecondLeftList33").hide();
-        $("#SecondLeftList44").hide();
-        $("#SecondLeftList55").hide();
+        $("#SecondLeftList22").fadeIn(200).siblings().hide();
     });
     $("#SecondLeftList3").mouseover(function () {
-        $("#SecondLeftList11").hide();
-        $("#SecondLeftList22").hide();
-        $("#SecondLeftList33").fadeIn(200);
-        $("#SecondLeftList44").hide();
-        $("#SecondLeftList55").hide();
+        $("#SecondLeftList33").fadeIn(200).siblings().hide();
     });
     $("#SecondLeftList4").mouseover(function () {
-        $("#SecondLeftList11").hide();
-        $("#SecondLeftList22").hide();
-        $("#SecondLeftList33").hide();
-        $("#SecondLeftList44").fadeIn(200);
-        $("#SecondLeftList55").hide();
+        $("#SecondLeftList44").fadeIn(200).siblings().hide();
     });
     $("#SecondLeftList5").mouseover(function () {
-        $("#SecondLeftList11").hide();
-        $("#SecondLeftList22").hide();
-        $("#SecondLeftList33").hide();
-        $("#SecondLeftList44").hide();
-        $("#SecondLeftList55").fadeIn(200);
+        $("#SecondLeftList55").fadeIn(200).siblings().hide();
     });
 
     $(".Tese11").mouseover(function () {
