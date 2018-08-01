@@ -116,6 +116,9 @@ body{
     text-align: center;
     font-size: 15px;
 }
+.searchinput{
+    padding-left: 14px;
+ }
 #search .searchinput{
     width: 500px;
     height: 40px;
