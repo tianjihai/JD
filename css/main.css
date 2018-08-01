@@ -74,6 +74,11 @@ body{
 .goTop img{
     width: 35px;
 }
+.goTop img:hover{
+    transform: rotate(360deg);
+    transition: transform 0.3s;
+}
+
 #headtit{
     border: 0px solid red;
     height: 35px;
