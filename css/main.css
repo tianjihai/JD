@@ -1,11 +1,16 @@
-*{margin:0;padding:0;}
+*{
+    margin:0;
+    padding:0;
+}
 body{
     background-color: #F0F3EF;
 }
 
 .slider {
     overflow: hidden;
-    float: left;width:580px;height: 470px;
+    float: left;
+    width:580px;
+    height: 470px;
     position: relative;
 }
 
@@ -28,7 +33,7 @@ body{
 
 .arrow-left,
 .arrow-right {
-    font-family: "SimSun", "宋体";
+    font-family: "SimSun", "宋体", sans-serif;
     width: 30px;
     height: 60px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -60,7 +65,7 @@ body{
 
 .main{
     margin: 0 auto;
-    border: 0px solid blue;
+    border: 0 solid blue;
     width: 1200px;
 }
 .goTop{
@@ -80,7 +85,7 @@ body{
 }
 
 #headtit{
-    border: 0px solid red;
+    border: 0 solid red;
     height: 35px;
     width: 1200px;
     margin: 0 auto;
@@ -127,10 +132,10 @@ body{
 #search .searchinput{
     width: 500px;
     height: 40px;
-    border: 0px solid white;
+    border: 0 solid white;
 }
 #search{
-    border: 0px solid blue;
+    border: 0 solid blue;
     width: 570px;
     float: left;
     margin-left: 150px;
@@ -140,7 +145,8 @@ body{
     float: left;
 }
 #logo img{
-    margin-top: -35px;box-shadow:0 0 20px lightgray;
+    margin-top: -35px;
+    box-shadow:0 0 20px lightgray;
 }
 .sbt{
     background-color: red;
@@ -161,12 +167,12 @@ body{
     margin-left: 40px;
 }
 #mainmenu{
-    border: 0px solid red;
+    border: 0 solid red;
     height: 490px;
     width: 1200px;
 }
 #leftmenu{
-    border: 0px solid blue;
+    border: 0 solid blue;
     width: 188px;
     height: 480px;
     float: left;
@@ -180,7 +186,7 @@ body{
     background-color: white;
     font-size: 14px;
     color: gray;
-    font-family: "微软雅黑";
+    font-family: "微软雅黑", sans-serif;
     padding-left: 18px;
     letter-spacing: 1px;
 }
@@ -193,25 +199,39 @@ body{
     float: left;
 }
 .centermenu {
-    display: none;background-color: white;width:1000px;height: 480px;
+    display: none;
+    background-color: white;
+    width:1000px;
+    height: 480px;
     margin-left: 173px;
     box-shadow: 0 0 10px grey;
     position: absolute;
     z-index: 111;
 }
 .menutable1{
-    width: 100px;text-align: right;padding-right: 20px;
-    font-weight: bold;padding-bottom: 5px;padding-top: 5px;
+    width: 100px;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 .menutable2{
-    padding-left: 10px;padding-right: 5px;border-left: 1px solid lightgray;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-left: 1px solid lightgray;
     color: #333333;
 }
 .mainleftpic{
-    float: left;border: 0px solid blue; padding-right: 20px;
+    float: left;
+    border: 0 solid blue;
+    padding-right: 20px;
 }
 .topLeftPic{
-    width:190px;height: 150px;margin-top: 10px;margin-bottom: 10px;
+    width:190px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 .topLeftPic:hover{
@@ -219,12 +239,15 @@ body{
     transition:opacity 0.2s linear;
 }
 .menuRight{
-    float: left;margin-top: 10px;width: 180px;height: 470px;
+    float: left;
+    margin-top: 10px;
+    width: 180px;
+    height: 470px;
     background-color: white;
 }
 .menuRightTop{
     text-align: center;
-    border: 0px solid black;
+    border: 0 solid black;
     padding-bottom: 30px;
 }
 .menuRightTop p{
@@ -269,11 +292,13 @@ body{
     color: white;
 }
 .mrBtn1{
-    background-color: white; color: red;
+    background-color: white;
+    color: red;
     box-shadow: 10px 5px 20px lightgray;
 }
 .mrBtn2{
-    background-color: dimgray; color:lightgray;
+    background-color: dimgray;
+    color:lightgray;
     box-shadow: 10px 5px 20px lightgray;
 }
 .menuRighta1{
@@ -323,7 +348,7 @@ body{
     color: red;
 }
 .menuRightMedium{
-    border: 0px solid red;
+    border: 0 solid red;
     margin-bottom:20px;
 }
 .menuRightMedium a{
@@ -333,10 +358,13 @@ body{
     border: 1px solid black;
 }
 .spanTitletxt{
-    font-size: 14px;color: gray;margin-left: 6px;font-weight: 500;
+    font-size: 14px;
+    color: gray;
+    margin-left: 6px;
+    font-weight: 500;
 }
 .firstList{
-    border: 0px solid black;
+    border: 0 solid black;
     height: 280px;
     width: 100%;
     margin-top: 30px;
@@ -345,15 +373,18 @@ body{
 .firstListLeft{
     float: left;
     border: 1px solid red;
-    width: 190px;height: 280px;
+    width: 190px;
+    height: 280px;
     background-color: rgba(232,54,50,1);
     text-align: center;
 }
 .goodsPic1{
-    display: block; margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 .goodsPic2{
-    display: none; margin: 0 auto;
+    display: none;
+    margin: 0 auto;
 }
 .goods1{
     display: block;
@@ -362,7 +393,7 @@ body{
     width:10px;height:10px;
     background-color: red;
     border-radius:5px;
-    border: 0px solid darkgray;
+    border: 0 solid darkgray;
     box-shadow: 0 0 5px red;
 }
 .goods2{
@@ -375,13 +406,22 @@ body{
     border: 2px solid darkgray;
 }
 .goodsList1{
-    border: 0px solid red;list-style: none;float:left;display: block;
+    border: 0 solid red;
+    list-style: none;
+    float:left;
+    display: block;
 }
 .goodsList2{
-    border: 0px solid red;list-style: none;float:left;display: none;
+    border: 0 solid red;
+    list-style: none;
+    float:left;
+    display: none;
 }
 .goodsList1 li,.goodsList2 li{
-    border: 1px solid #F0F3EF;width: 200px;height: 270px;float:left;
+    border: 1px solid #F0F3EF;
+    width: 200px;
+    height: 270px;
+    float:left;
     text-align: center;
 }
 .goodsList1 a,.goodsList2 a{
@@ -396,7 +436,7 @@ body{
     color: red;
 }
 .goodsList1 img,.goodsList2 img{
-    border: 0px solid red;
+    border: 0 solid red;
     margin-top: 30px;
 }
 .goodsList1 img:hover,.goodsList2 img:hover{
@@ -410,13 +450,19 @@ body{
 }
 
 .goodsListTable1{
-    width: 80px;background-color: red;color: white;border: 1px solid red;
+    width: 80px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
     font-weight: 700;
     font-size: 15px;
     letter-spacing: 1px;
 }
 .goodsListTable2{
-    width: 80px;background-color: white;color: gray;border: 1px solid red;
+    width: 80px;
+    background-color: white;
+    color: gray;
+    border: 1px solid red;
     font-size: 13px;
     text-decoration: line-through;
 }
@@ -427,7 +473,7 @@ body{
     width:10px;height:10px;
     background-color: red;
     border-radius:5px;
-    border: 0px solid darkgray;
+    border: 0 solid darkgray;
     box-shadow: 0 0 5px red;
 }
 .goodsListRight{
@@ -448,7 +494,10 @@ body{
     overflow: hidden;
 }
 .SecondLeftList{
-    width: 20%;height:35px;line-height:35px;float:left;
+    width: 20%;
+    height:35px;
+    line-height:35px;
+    float:left;
     color: dimgray;
     font-size: 12px;
 }
@@ -456,7 +505,10 @@ body{
     color: red;
 }
 .SecondLeftMenu{
-    height: 35px;width: 100%;border: 0px solid green;text-align: center;
+    height: 35px;
+    width: 100%;
+    border: 0 solid green;
+    text-align: center;
     background-color: rgba(247,247,247,1);
 }
 .SecondLeftMenu a{
@@ -467,18 +519,21 @@ body{
     color: red;
 }
 .SecondLeft{
-    border: 0px solid red;width: 390px;height: 450px;float: left;
+    border: 0 solid red;
+    width: 390px;
+    height: 450px;
+    float: left;
     background-color: white;
 }
 .SecondLeftTop{
-    border: 0px solid blue;
+    border: 0 solid blue;
     width: 100%;
     height: 60px;
     line-height: 60px;
     font-size: 23px;
     background-color: white;
     padding-left: 20px;
-    font-family: '微软雅黑 Light';
+    font-family: '微软雅黑 Light', sans-serif;
     font-weight: 500;
     color: black;
 }
@@ -487,11 +542,17 @@ body{
     color: black;
  }
 .SecondLeftMain{
-    height: 310px;width: 100%;border: 0px solid black;background-color: white;
+    height: 310px;
+    width: 100%;
+    border: 0 solid black;
+    background-color: white;
     overflow: hidden;
 }
 .SecondLeftListImg{
-    float:left;line-height: 100px;padding-left: 20px;padding-right: 15px;
+    float:left;
+    line-height: 100px;
+    padding-left: 20px;
+    padding-right: 15px;
 }
 .SecondLeftListNum1{
     color: rgba(231,66,64,1);
@@ -518,10 +579,14 @@ body{
     padding-right: 10px;
 }
 .SecondLeftListTxt{
-    font-size: 12px;float:left;width: 220px;margin-top: 30px;
+    font-size: 12px;
+    float:left;
+    width: 220px;
+    margin-top: 30px;
 }
 .SecondLeftListMain{
-    width:100%;height: 100px;
+    width:100%;
+    height: 100px;
 }
 .SecondLeftListA{
     color: dimgray;
@@ -535,7 +600,8 @@ body{
     transition:opacity 0.2s linear;
 }
 .SecondCenter1Txt{
-    width: 100%;text-align: center;
+    width: 100%;
+    text-align: center;
 }
 .SecondCenter1 img:hover{
     opacity: 0.7;
@@ -545,75 +611,131 @@ body{
     font-weight:bold;
 }
 .SecondCenter1Txt p{
-    color: gray;padding-top: 8px;
+    color: gray;
+    padding-top: 8px;
 }
 
 .DigitalMain{
-    border: 0px solid blue;width: 100%;  float: left;
+    border: 0 solid blue;
+    width: 100%;
+    float: left;
 }
 .DigitalMain img:hover{
     opacity: 0.8;
     transition: opacity 0.3s;
 }
 .DigitalMainHead{
-    width:100%;border: 0px solid black; height: 90px;float:left;
+    width:100%;
+    border: 0 solid black;
+    height: 90px;
+    float:left;
 }
 .DigitalMainHead>div{
-    margin: 0 auto;width: 282px;height: 90px;line-height: 80px;
+    margin: 0 auto;
+    width: 282px;
+    height: 90px;
+    line-height: 80px;
 }
 .DigitalMainHeadtxt{
-    float: left;height: 90px;font-size: 25px;font-weight: 500;
+    float: left;
+    height: 90px;
+    font-size: 25px;
+    font-weight: 500;
 }
 .DigitalMainHeadHr{
-    float: left;height: 90px;padding: 20px;
+    float: left;
+    height: 90px;
+    padding: 20px;
 }
 .DigitalMainHeadHr>hr{
-    width: 45px;border:1px solid black;
+    width: 45px;
+    border:1px solid black;
 }
 .DigitalMainContent{
-    width: 100%;float: left;
+    width: 100%;
+    float: left;
 }
 .DigitalMainContent1{
-    border: 0px solid red;width: 390px;height: 450px;float: left; background-color: white;margin-right: 6px;
+    border: 0 solid red;
+    width: 390px;
+    height: 450px;
+    float: left;
+    background-color: white;
+    margin-right: 6px;
 }
 .DigitalMainContent1 table{
-    margin: 20px auto;width: 350px;text-align: center;
+    margin: 20px auto;
+    width: 350px;
+    text-align: center;
 }
 .DigitalMainContent1 table td{
     border: 1px solid lightgray;
 }
 .DigitalMainContent1Center{
-    height: 390px;width: 100%;text-align: center;
+    height: 390px;
+    width: 100%;
+    text-align: center;
 }
 .DigitalMainContentImg{
-    display: inline;padding: 5px;
+    display: inline;
+    padding: 5px;
 }
 .DigitalMainContent2{
-    width: 400px;height: 450px;float: left;margin-left: 6px;margin-right: 6px;background-color: white;
+    width: 400px;
+    height: 450px;
+    float: left;
+    margin-left: 6px;
+    margin-right: 6px;
+    background-color: white;
 }
 .DigitalMainContent2 span{
-    font-size: 14px;color: gray;margin-left: 6px;
+    font-size: 14px;
+    color: gray;
+    margin-left: 6px;
 }
 .DigitalMainContent3{
-     width: 380px;height: 450px;float: left;margin-left: 6px;
+     width: 380px;
+    height: 450px;
+    float: left;
+    margin-left: 6px;
  }
 .DigitalMainContent3Border{
-    border: 5px solid black; width: 340px;height: 420px;margin-left: 40px;margin-top: 30px;
+    border: 5px solid black;
+    width: 340px;
+    height: 420px;
+    margin-left: 40px;
+    margin-top: 30px;
 }
 .DigitalMainContent4{
-    width: 380px;height: 450px;float: left;margin-right: 6px;
+    width: 380px;
+    height: 450px;
+    float: left;
+    margin-right: 6px;
 }
 .DigitalMainContent4Border{
-    border: 5px solid black; width: 340px;height: 420px;margin-top: 30px;
+    border: 5px solid black;
+    width: 340px;
+    height: 420px;
+    margin-top: 30px;
 }
 .DigitalMainContent5{
-    border: 0px solid red;width: 400px;height: 450px;float: left;margin-left: 14px;
+    border: 0 solid red;
+    width: 400px;
+    height: 450px;
+    float: left;
+    margin-left: 14px;
 }
 .DigitalMainContent6{
-    width: 380px;height: 450px;float: left;margin-left: 12px;background-color: white;
+    width: 380px;
+    height: 450px;
+    float: left;
+    margin-left: 12px;
+    background-color: white;
 }
 .DigitalMainContent6 span{
-    font-size: 14px;color: gray;margin-left: 6px;
+    font-size: 14px;
+    color: gray;
+    margin-left: 6px;
 }
 .JiaJuCenterPic{
     margin-top: 5px;
@@ -622,10 +744,16 @@ body{
     margin: 3px;
 }
 .JiajulMainContent1{
-    width: 390px;height: 450px;float: left; background-color: white;margin-left: 13px;
+    width: 390px;
+    height: 450px;
+    float: left;
+    background-color: white;
+    margin-left: 13px;
 }
 .JiaJuLeftPic{
-    width: 100%;overflow: hidden;text-align: center;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
     padding-top: 25px;
 }
 .JiaJuLeftPic img{
@@ -633,13 +761,22 @@ body{
     margin-right:10px;
 }
 .JiaJuRightPic{
-    width: 395px;height: 450px;float: right;
+    width: 395px;
+    height: 450px;
+    float: right;
 }
 .JiaJuRightPicBorder{
-    border: 5px solid black; width: 370px;height: 420px;margin-left: 25px;margin-top: 30px;
+    border: 5px solid black;
+    width: 370px;
+    height: 420px;
+    margin-left: 25px;
+    margin-top: 30px;
 }
 .JiaJuCenterPic2{
-    width: 390px;height: 450px;float: left;margin-left: 12px;
+    width: 390px;
+    height: 450px;
+    float: left;
+    margin-left: 12px;
 }
 .JiaJuCenterPic2 a{
     text-decoration: none;
@@ -711,14 +848,17 @@ body{
     font-size: 23px;
     background-color: white;
     padding-left: 20px;
-    font-family: '微软雅黑 Light';
+    font-family: '微软雅黑 Light', sans-serif;
     font-weight: 500;
     color: black;
     text-align: left;
     margin-bottom: 10px;
 }
 .TestTxtTop span{
-    font-size: 14px;color: gray;margin-left: 6px;font-weight: 500;
+    font-size: 14px;
+    color: gray;
+    margin-left: 6px;
+    font-weight: 500;
 }
 .TestTxtTop a{
     text-decoration: none;
@@ -729,11 +869,12 @@ body{
     float: left;
     margin-left: 5px;
     margin-right: 5px;
-    width:10px;height:10px;
+    width:10px;
+    height:10px;
     margin-top: 10px;
     background-color: red;
     border-radius:5px;
-    border: 0px solid darkgray;
+    border: 0 solid darkgray;
     box-shadow: 0 0 5px red;
 }
 .Tese22{
@@ -741,7 +882,8 @@ body{
     float: left;
     margin-left: 5px;
     margin-right: 5px;
-    width:10px;height:10px;
+    width:10px;
+    height:10px;
     margin-top: 10px;
     background-color: white;
     border-radius:5px;
@@ -752,17 +894,25 @@ body{
     float: left;
     margin-left: 5px;
     margin-right: 5px;
-    width:10px;height:10px;
+    width:10px;
+    height:10px;
     margin-top: 10px;
     background-color: white;
     border-radius:5px;
     border: 2px solid darkgray;
 }
 .TeseChange{
-    text-align: center;float: left;width: 100%;height: 30px; margin-top: 12px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin-top: 12px;
 }
 .TeseChange>div{
-    float: left;position: relative;left: 50%;margin-left: -28px;
+    float: left;
+    position: relative;
+    left: 50%;
+    margin-left: -28px;
 }
 .footMain{
     height: auto;
