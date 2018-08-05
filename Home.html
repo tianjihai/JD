@@ -13,9 +13,11 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/main.js"></script>
 
+
+
 </head>
 <body>
-
+<div id="mainBody" style="display: block;">
 <div  style="background-color: #e3e4e5;height: 35px;width: 100%;">
 
     <div id="headtit">
@@ -2588,6 +2590,18 @@
     </div>
 
 </div>
+</div>
 
+<div id="mainBody2" style="display: none;">
+  当前浏览器版本过低，请升级浏览器！
+</div>
+
+<!--[if lt IE 9]>
+<script type="text/javascript">
+    alert("IE8不支持");
+    document.getElementById('mainBody').setAttribute("style","display: none;");
+    document.getElementById('mainBody2').setAttribute("style","display: block;");
+</script>
+<![endif]-->
 </body>
 </html>
