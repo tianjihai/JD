@@ -359,9 +359,11 @@ body{
     border-bottom: 2px solid red;
 }
 .menuRightBottom{
-    border: 1px solid black;
+    border:0px solid black;
 }
 .huafei{
+    padding-left: 8px;
+    padding-right: 8px;
     display: block;
 }
 .jipiao{

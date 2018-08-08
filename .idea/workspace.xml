@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61a90165-8bf8-4445-9673-268c7e247a9f" name="Default" comment="话费充值栏">
+    <list default="true" id="61a90165-8bf8-4445-9673-268c7e247a9f" name="Default" comment="机票栏">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,18 +44,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2350" />
-          <entry key="html" value="4978" />
+          <entry key="css" value="2429" />
+          <entry key="html" value="5081" />
           <entry key="js" value="290" />
-          <entry key="txt" value="265" />
+          <entry key="txt" value="268" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2350" />
-          <entry key="HTML" value="4978" />
+          <entry key="CSS" value="2429" />
+          <entry key="HTML" value="5081" />
           <entry key="JavaScript" value="290" />
-          <entry key="PLAIN_TEXT" value="265" />
+          <entry key="PLAIN_TEXT" value="268" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -76,11 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="1603" column="70" selection-start-line="1603" selection-start-column="70" selection-end-line="1603" selection-end-column="70" />
+            <state relative-caret-position="79">
+              <caret line="1564" column="45" selection-start-line="1564" selection-start-column="45" selection-end-line="1564" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -102,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="307" column="17" selection-start-line="307" selection-start-column="17" selection-end-line="307" selection-end-column="17" />
+            <state relative-caret-position="346">
+              <caret line="365" column="17" selection-start-line="365" selection-start-column="17" selection-end-line="365" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -153,8 +154,8 @@
       <list>
         <option value="$PROJECT_DIR$/lunbo.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/Home.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -208,7 +209,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="menuRighta1&#9;null&#9;null&#10;leftmenu&#9;null&#9;null&#10;menuRighta3&#9;null&#9;null&#10;menuRightBottom&#9;null&#9;null&#10;goTop&#9;null&#9;null&#10;searchinput&#9;null&#9;null&#10;footFirst&#9;null&#9;null&#10;centermenu&#9;null&#9;null&#10;goodsListSpot&#9;null&#9;null&#10;goodslistle&#9;null&#9;null&#10;goods2&#9;null&#9;null&#10;goods1&#9;null&#9;null&#10;SecondLeftTop&#9;null&#9;null&#10;DigitalMainContent4&#9;null&#9;null&#10;DigitalMainHeadtxt&#9;null&#9;null&#10;DigitalMain&#9;null&#9;null&#10;blue&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="huafei&#9;null&#9;null&#10;menuRighta1&#9;null&#9;null&#10;leftmenu&#9;null&#9;null&#10;menuRighta3&#9;null&#9;null&#10;menuRightBottom&#9;null&#9;null&#10;goTop&#9;null&#9;null&#10;searchinput&#9;null&#9;null&#10;footFirst&#9;null&#9;null&#10;centermenu&#9;null&#9;null&#10;goodsListSpot&#9;null&#9;null&#10;goodslistle&#9;null&#9;null&#10;goods2&#9;null&#9;null&#10;goods1&#9;null&#9;null&#10;SecondLeftTop&#9;null&#9;null&#10;DigitalMainContent4&#9;null&#9;null&#10;DigitalMainHeadtxt&#9;null&#9;null&#10;DigitalMain&#9;null&#9;null&#10;blue&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.9.4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -302,14 +303,7 @@
       <workItem from="1533569039142" duration="509000" />
       <workItem from="1533569802078" duration="648000" />
       <workItem from="1533636976050" duration="26000" />
-      <workItem from="1533737690093" duration="2786000" />
-    </task>
-    <task id="LOCAL-00009" summary="修改主页右侧菜单栏部分3">
-      <created>1531929455732</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1531929455732</updated>
+      <workItem from="1533737690093" duration="3589000" />
     </task>
     <task id="LOCAL-00010" summary="主页轮播图">
       <created>1531969644649</created>
@@ -647,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533740095497</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="机票栏">
+      <created>1533740510065</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1533740510065</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120738000" />
+    <option name="totallyTimeSpent" value="121541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -735,7 +736,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成家居模块编写" />
     <MESSAGE value="生活模块编写" />
     <MESSAGE value="特色模块编写" />
     <MESSAGE value="特色模块小圆点修改" />
@@ -760,7 +760,8 @@
     <MESSAGE value="CSS样式整理" />
     <MESSAGE value="修改右侧登录条" />
     <MESSAGE value="话费充值栏" />
-    <option name="LAST_COMMIT_MESSAGE" value="话费充值栏" />
+    <MESSAGE value="机票栏" />
+    <option name="LAST_COMMIT_MESSAGE" value="机票栏" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../JD2/js/npm.js" />
@@ -793,17 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="307" column="17" selection-start-line="307" selection-start-column="17" selection-end-line="307" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="1603" column="70" selection-start-line="1603" selection-start-column="70" selection-end-line="1603" selection-end-column="70" />
+        <state relative-caret-position="79">
+          <caret line="1564" column="45" selection-start-line="1564" selection-start-column="45" selection-end-line="1564" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -821,6 +815,13 @@
             <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#div#2;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="365" column="17" selection-start-line="365" selection-start-column="17" selection-end-line="365" selection-end-column="17" />
         </state>
       </provider>
     </entry>
