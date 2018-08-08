@@ -314,11 +314,7 @@ body{
     font-size: 13px;
     color: black;
 }
-.menuRighta3{
-    margin-left: 7px;
-    margin-right: 5px;
-    color: black;
-}
+
 .menuRighta1:hover,.menuRighta2:hover{
     color:black ;
 }
@@ -354,9 +350,19 @@ body{
 .menuRightMedium a{
     text-decoration: none;
 }
+.menuRighta3{
+    float: left;
+    width: 25%;
+    text-align: center;
+    color: black;
+}
+.menuRighta3:hover{
+    border-bottom: 2px solid red;
+}
 .menuRightBottom{
     border: 1px solid black;
 }
+
 .spanTitletxt{
     font-size: 14px;
     color: gray;
