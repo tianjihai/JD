@@ -6,18 +6,18 @@ $(document).ready(function () {
     //默认自动轮播下一张图片
     function lunbo() {
         count++;
-        if(count == $li.length){
+        if(count === $li.length){
             count = 0;
         }
         $li.eq(count).fadeIn(400).siblings().fadeOut(400);
-    };
+    }
     var lb=setInterval(lunbo,1500);
 
 
     //点击下一张切换到下一张图片然后停止自动轮播定时器
     $(".arrow-right").click(function () {
         count++;
-        if(count == $li.length){
+        if(count === $li.length){
             count = 0;
         }
         $li.eq(count).fadeIn(400).siblings().fadeOut(400);
@@ -27,7 +27,7 @@ $(document).ready(function () {
     //点击上一张切换上一张图片然后停止自动轮播定时器
     $(".arrow-left").click(function () {
         count--;
-        if(count == -1){
+        if(count === -1){
             count = $li.length - 1;
         }
         $li.eq(count).fadeIn(400).siblings().fadeOut(400);
@@ -40,7 +40,6 @@ $(document).ready(function () {
 
 
     $("#leftmenu>ul>li").mouseover(function () {
-        //  $("#"+$(this).index()).css('display', 'block');
         $("#"+$(this).index()).fadeIn(150);
     });
 
@@ -64,6 +63,20 @@ $(document).ready(function () {
         $(".cuxiao").css('display', 'block');
         $(".gonggao").css('display', 'none');
     });
+
+    $(".mr1").mouseover(function () {
+        $(".huafei").show().siblings().hide();
+    });
+    $(".mr2").mouseover(function () {
+        $(".jipiao").show().siblings().hide();
+    });
+    $(".mr3").mouseover(function () {
+        $(".hotel").show().siblings().hide();
+    });
+    $(".mr4").mouseover(function () {
+        $(".game").show().siblings().hide();
+    });
+
 
     $(".goods1").mouseover(function () {
         $(".goodsPic1").fadeIn(150);
