@@ -5,7 +5,14 @@
 body{
     background-color: #F0F3EF;
 }
-
+.sliderContain{
+    border: 0px solid black;
+    width: 600px;
+    height: 490px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
 .slider {
     overflow: hidden;
     float: left;
@@ -353,27 +360,74 @@ body{
     float: left;
     width: 25%;
     text-align: center;
-    color: black;
+    color: gray;
+    font-size: 12px;
 }
 .menuRighta3:hover{
     border-bottom: 2px solid red;
 }
+.menuMain{
+    margin-top: 10px;
+}
 .menuRightBottom{
     border:0px solid black;
+}
+.ChongZhiButton{
+    background-color: red;
+    color: white;
+    border-radius:20px 20px 20px 20px;
+    border: 1px solid red;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .huafei{
     padding-left: 8px;
     padding-right: 8px;
     display: block;
+    font-size: 12px;
+}
+.huafei table{
+    margin: 10px auto;
+}
+.huafei tr{
+    height: 26px;
 }
 .jipiao{
     display: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+}
+.jipiao table{
+    margin: 10px auto;
+}
+.jipiao tr{
+    height: 26px;
 }
 .hotel{
     display: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+}
+.hotel table{
+    margin: 10px auto;
+}
+.hotel tr{
+    height: 26px;
 }
 .game{
     display: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+}
+.game table{
+    margin: 16px auto;
+}
+.game tr{
+    height: 32px;
 }
 .spanTitletxt{
     font-size: 14px;
