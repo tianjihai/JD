@@ -5,7 +5,14 @@
 body{
     background-color: #F0F3EF;
 }
-
+.sliderContain{
+    border: 0 solid black;
+    width: 600px;
+    height: 490px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
 .slider {
     overflow: hidden;
     float: left;
@@ -172,7 +179,7 @@ body{
     width: 1200px;
 }
 #leftmenu{
-    border: 0px solid blue;
+    border: 0 solid blue;
     width: 188px;
     height: 480px;
     float: left;
@@ -353,27 +360,74 @@ body{
     float: left;
     width: 25%;
     text-align: center;
-    color: black;
+    color: gray;
+    font-size: 12px;
 }
 .menuRighta3:hover{
     border-bottom: 2px solid red;
 }
+.menuMain{
+    margin-top: 10px;
+}
 .menuRightBottom{
-    border:0px solid black;
+    border:0 solid black;
+}
+.ChongZhiButton{
+    background-color: red;
+    color: white;
+    border-radius:20px 20px 20px 20px;
+    border: 1px solid red;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .huafei{
     padding-left: 8px;
     padding-right: 8px;
     display: block;
+    font-size: 12px;
+}
+.huafei table{
+    margin: 10px auto;
+}
+.huafei tr{
+    height: 26px;
 }
 .jipiao{
     display: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+}
+.jipiao table{
+    margin: 10px auto;
+}
+.jipiao tr{
+    height: 26px;
 }
 .hotel{
     display: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+}
+.hotel table{
+    margin: 10px auto;
+}
+.hotel tr{
+    height: 26px;
 }
 .game{
     display: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
+}
+.game table{
+    margin: 16px auto;
+}
+.game tr{
+    height: 32px;
 }
 .spanTitletxt{
     font-size: 14px;
@@ -422,6 +476,12 @@ body{
     background-color: white;
     border-radius:5px;
     border: 2px solid darkgray;
+}
+.goodsListMain{
+    width: 805px;
+    height: 280px;
+    float: left;
+    margin-left:10px;
 }
 .goodsList1{
     border: 0 solid red;
@@ -510,6 +570,13 @@ body{
     margin-top: -30px;
     height: 30px;
     overflow: hidden;
+}
+.SecondLeftContain{
+    width: 390px;
+    height: 450px;
+    float: left;
+    margin-left: 14px;
+    background-color: white;
 }
 .SecondLeftList{
     width: 20%;
@@ -632,7 +699,31 @@ body{
     color: gray;
     padding-top: 8px;
 }
+.SecondRightContain{
+    width: 390px;
+    height: 450px;
+    float: right;
+}
+.SecondRightMain{
+    height: 390px;
+    width: 100%;
+    background-color: white;
+}
+.SecondRightList1{
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
+    background-color: rgba(246,246,246,1);
+    border-radius: 8px 8px 8px 8px;
 
+}
+.SecondRightList2{
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
+    background-color: rgba(238,239,237,1);
+    border-radius: 8px 8px 8px 8px;
+}
 .DigitalMain{
     border: 0 solid blue;
     width: 100%;

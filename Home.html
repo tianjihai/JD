@@ -22,7 +22,7 @@
 
     <div id="headtit">
 
-    <ul id="headli" style="list-style: none; height:40px; border: 0px solid black;">
+    <ul id="headli" style="list-style: none; height:40px;">
         <li>您好，请登录<span style="float: right;">|</span></li>
         <li>我的订单<span style="float: right;">|</span></li>
         <li>我的京东<span style="float: right;">|</span></li>
@@ -96,9 +96,14 @@
 
 <div class="main" id="main">
 
-    <div style="height: 130px;border: 0px solid blue;width: 1200px;margin: 0 auto;">
-        <div id="logo"><img src="img/logo.png" alt="京东" ></div>
-        <div id="search"><input type="text" class="searchinput" placeholder="搜索" > <button  type="submit" class="glyphicon glyphicon-search sbt"></button></div>
+    <div style="height: 130px;width: 1200px;margin: 0 auto;">
+        <div id="logo">
+            <img src="img/logo.png" alt="京东" >
+        </div>
+        <div id="search">
+            <input type="text" class="searchinput" placeholder="搜索" >
+            <button  type="submit" class="glyphicon glyphicon-search sbt"></button>
+        </div>
         <div id="cart">我的购物车</div>
 
         <div id="headmenu">
@@ -1491,7 +1496,7 @@
 
 
         <!--轮播图 -->
-        <div style="border: 0px solid black;width: 600px;height: 490px; margin-top: 10px; margin-left: 10px;float: left;">
+        <div class="sliderContain">
             <div class="slider">
                 <ul>
                     <li><a href="#"><img src="img/mainpic/home1.jpg" alt=""></a></li>
@@ -1568,17 +1573,18 @@
                     <a href="" class="menuRighta3 mr3">酒店</a>
                     <a href="" class="menuRighta3 mr4">游戏</a>
                 </div>
-                <div >
+                <div class="menuMain">
                     <div class="huafei">
                         话费充值<br/>
-                        <table style=" margin: 10px auto; " >
+                        <table>
                             <tr>
                                 <td>号码</td>
-                                <td><input type="text" placeholder="移动/联通/电信" style="width: 120px;"> </td>
+                                <td><input type="text" placeholder="移动/联通/电信" style="width: 120px;"></td>
                             </tr>
                             <tr>
                                 <td>面值</td>
-                                <td><select name="" id="" style="width: 120px;">
+                                <td>
+                                    <select name="" id="" style="width: 120px;">
                                     <option value="">10元</option>
                                     <option value="">20元</option>
                                     <option value="">30元</option>
@@ -1588,13 +1594,13 @@
                                 </td>
                             </tr>
                         </table>
-                        <input type="button" value="快速充值"style="background-color: red;color: white;border-radius:20px 20px 20px 20px;border: 1px solid red;font-size: 12px;padding-left: 5px;padding-right: 5px;">
+                        <input type="button" value="快速充值" class="ChongZhiButton" >
                         
                     </div>
                     <div class="jipiao">
                         <input type="radio" name="dc" value="单程"><lable  style="padding-left: 10px;padding-right: 10px;">单程</lable>
                         <input type="radio" name="dc" value="往返"><lable  style="padding-left: 10px;padding-right: 10px;">往返</lable>
-                        <table style="border: 1px solid black;margin: 10px auto; " >
+                        <table>
                             <tr>
                                 <td>出发</td>
                                 <td><input type="text" placeholder="城市" style="width: 120px;"> </td>
@@ -1604,14 +1610,46 @@
                                 <td><input type="text" placeholder="城市" style="width: 120px;"> </td>
                             </tr>
                         </table>
-                        <input type="button" value="快速充值"style="background-color: red;color: white;border-radius:20px 20px 20px 20px;border: 1px solid red;font-size: 12px;padding-left: 5px;padding-right: 5px;">
+                        <input type="button" value="机票查询" class="ChongZhiButton" >
 
                     </div>
                     <div class="hotel">
-                        酒店
+                        <table >
+                            <tr>
+                                <td style="padding-right: 5px;">目的地</td>
+                                <td><input type="text" placeholder="北京" style="width: 100px;"> </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-right: 5px;">入住日期</td>
+                                <td><input type="date" style="width: 100px;"> </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-right: 5px;">离店日期</td>
+                                <td><input type="date"  style="width: 100px;"> </td>
+                            </tr>
+                        </table>
+                        <input type="button" value="酒店查询" class="ChongZhiButton" >
                     </div>
                     <div class="game">
-                        游戏
+                        <table>
+                            <tr>
+                                <td>QQ号码</td>
+                                <td><input type="text"  style="width: 120px;"></td>
+                            </tr>
+                            <tr>
+                                <td>面值</td>
+                                <td>
+                                    <select name=""  style="width: 120px;">
+                                        <option value="">10元</option>
+                                        <option value="">20元</option>
+                                        <option value="">30元</option>
+                                        <option value="">50元</option>
+                                        <option value="">100元</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                        <input type="button" value="确认充值" class="ChongZhiButton" >
                     </div>
                 </div>
             </div>
@@ -1630,7 +1668,7 @@
         </a>
 
         <div style="background-color: white; float: left;">
-        <div style="border: 0px solid green;width: 805px;height: 280px;float: left;margin-left:10px; ">
+        <div class="goodsListMain">
             <ul class="goodsList1">
                 <a href="">
                     <li>
@@ -1764,7 +1802,7 @@
     </div>
 
 
-    <div style="border: 0px solid black;width: 100%;height: 460px;float: left;">
+    <div style="width: 100%;height: 460px;float: left;">
         <div class="SecondLeft" >
             <div class="SecondLeftTop" >
                 <a href="">排行榜 <img src="img/Rbutton.png" alt=""><span class="spanTitletxt">专属你的购物指南</span></a>
@@ -1948,7 +1986,7 @@
             </div>
         </div>
 
-        <div style="border: 0px solid red;width: 390px;height: 450px;float: left;margin-left: 14px;background-color: white;">
+        <div class="SecondLeftContain">
             <div class="SecondLeftTop" >
                 <a href="">会买专辑 <img src="img/Rbutton.png" alt=""><span class="spanTitletxt">甄选优质好物</span></a>
             </div>
@@ -1972,55 +2010,55 @@
             </div>
         </div>
 
-        <div style="border: 0px solid red;width: 390px;height: 450px;float: right;">
+        <div class="SecondRightContain">
             <div class="SecondLeftTop" >
                 <a href="">领券中心 <img src="img/Rbutton.png" alt=""><span class="spanTitletxt">前往领券中心</span></a>
             </div>
-            <div style="height: 390px;width: 100%;border: 0px solid black;background-color: white;">
+            <div class="SecondRightMain">
 
                 <a href="">
-                    <div style="width: 90%;height: 120px;margin: 0 auto;background-color: rgba(246,246,246,1);border-radius: 8px 8px 8px 8px;border: 0px solid black;">
+                    <div class="SecondRightList1">
                         <div style="float: left;height:120px;line-height: 120px;padding-left:10px;"><img src="img/goodsLink/quan1.jpg" alt="" style="border-radius: 50px 50px 50px 50px;width: 80px;"></div>
-                        <div style="float:left;border: 0px solid black;height: 120px;padding-left: 10px;">
+                        <div style="float:left;height: 120px;padding-left: 10px;">
                             <div style="height: 60px;line-height: 75px;color: red;">¥<b style="font-size: 35px;letter-spacing: -2px;">10</b></div>
                             <div style="height: 25px;color: gray;">满200元可用</div>
                             <div style="color: dimgray;">全品类（除特殊商品外）</div>
                         </div>
                         <div style="position: relative;left: 270px;top: -10px; width: 20px;height: 20px;background-color: white;border-radius: 10px 10px 10px 10px;"></div>
                         <div style="position: relative;left: 270px;top: 90px; width: 20px;height: 20px;background-color: white;border-radius: 10px 10px 10px 10px;"></div>
-                        <div style="width: 20px;float: right;height:100%;border:0px solid black;text-align: center;margin-top: -40px;font-size: 13px;margin-right: 20px;color: black;padding-top: 5px;">
+                        <div style="width: 20px;float: right;height:100%;text-align: center;margin-top: -40px;font-size: 13px;margin-right: 20px;color: black;padding-top: 5px;">
                             更多精选好券
                         </div>
                     </div>
                 </a>
 
                 <a href="">
-                    <div style="width: 90%;height: 120px;margin: 0 auto;background-color: rgba(238,239,237,1);border-radius: 8px 8px 8px 8px;border: 0px solid black;">
+                    <div class="SecondRightList2">
                         <div style="float: left;height:120px;line-height: 120px;padding-left:10px;"><img src="img/goodsLink/quan2.jpg" alt="" style="border-radius: 50px 50px 50px 50px;width: 80px;"></div>
-                        <div style="float:left;border: 0px solid black;height: 120px;padding-left: 10px;">
+                        <div style="float:left;height: 120px;padding-left: 10px;">
                             <div style="height: 60px;line-height: 75px;color: red;">¥<b style="font-size: 35px;letter-spacing: -2px;">100</b></div>
                             <div style="height: 25px;color: gray;">满199元可用</div>
                             <div style="color: dimgray;">跨店铺活动商品</div>
                         </div>
                         <div style="position: relative;left: 270px;top: -10px; width: 20px;height: 20px;background-color: white;border-radius: 10px 10px 10px 10px;"></div>
                         <div style="position: relative;left: 270px;top: 90px; width: 20px;height: 20px;background-color: white;border-radius: 10px 10px 10px 10px;"></div>
-                        <div style="width: 20px;float: right;height:100%;border:0px solid black;text-align: center;margin-top: -40px;font-size: 13px;margin-right: 20px;color: black;padding-top: 5px;">
+                        <div style="width: 20px;float: right;height:100%;text-align: center;margin-top: -40px;font-size: 13px;margin-right: 20px;color: black;padding-top: 5px;">
                             更多精选好券
                         </div>
                     </div>
                 </a>
 
                 <a href="">
-                    <div style="width: 90%;height: 120px;margin: 0 auto;background-color: rgba(246,246,246,1);border-radius: 8px 8px 8px 8px;border:0px solid black;">
+                    <div class="SecondRightList1">
                         <div style="float: left;height:120px;line-height: 120px;padding-left:10px;"><img src="img/goodsLink/quan3.jpg" alt="" style="border-radius: 50px 50px 50px 50px;width: 80px;"></div>
-                        <div style="float:left;border: 0px solid black;height: 120px;padding-left: 10px;">
+                        <div style="float:left;height: 120px;padding-left: 10px;">
                             <div style="height: 60px;line-height: 75px;color: red;">¥<b style="font-size: 35px;letter-spacing: -2px;">5</b></div>
                             <div style="height: 25px;color: gray;">满110元可用</div>
                             <div style="color: dimgray;">自营牛奶部分商品</div>
                         </div>
                         <div style="position: relative;left: 270px;top: -10px; width: 20px;height: 20px;background-color: white;border-radius: 10px 10px 10px 10px;"></div>
                         <div style="position: relative;left: 270px;top: 90px; width: 20px;height: 20px;background-color: white;border-radius: 10px 10px 10px 10px;"></div>
-                        <div style="width: 20px;float: right;height:100%;border:0px solid black;text-align: center;margin-top: -40px;font-size: 13px;margin-right: 20px;color: black;padding-top: 5px;">
+                        <div style="width: 20px;float: right;height:100%;text-align: center;margin-top: -40px;font-size: 13px;margin-right: 20px;color: black;padding-top: 5px;">
                             更多精选好券
                         </div>
                     </div>
@@ -2609,7 +2647,7 @@
                 <a href="">违法和不良信息举报电话：4006561155</a>
             </p>
             <p>
-                <a href="">Copyright © 2004 - 2017  京东JD.com 版权所有</a>
+                <a href="">Copyright © 2004 - 2018  京东JD.com 版权所有</a>
                 <span class="pipe">|</span>
                 <a href="">消费者维权热线：4006067733经营证照</a>
             </p>
