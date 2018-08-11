@@ -40,11 +40,11 @@ $(document).ready(function () {
 
 
     $("#leftmenu>ul>li").mouseover(function () {
-        $("#"+$(this).index()).fadeIn(150);
+        $("#"+$(this).index()).stop().fadeIn(150);
     });
 
     $("#leftmenu>ul>li").mouseleave(function () {
-        $("#"+$(this).index()).fadeOut(150);
+        $("#"+$(this).index()).stop().fadeOut(150);
     });
 
 
